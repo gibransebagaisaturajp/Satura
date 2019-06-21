@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
-use App\Siswa;
+use App\siswa;
 class SiswaController extends Controller
 {
     /**
@@ -15,7 +15,7 @@ class SiswaController extends Controller
      */
     public function index()
     {
-       $siswa = Siswa::all();
+       $siswa = siswa::all();
        if(!$siswa){
         $response = [
          'success' => false,
@@ -69,7 +69,7 @@ class SiswaController extends Controller
             return response()->json($response,500);
         }
         //buat fungsi untuk menghandle semua inputan -> dimasuklan ke table
-        $siswa = Siswa::create($input);
+        $siswa = siswa::create($input);
         
         //menampilkan response
         $response =[
@@ -89,7 +89,7 @@ class SiswaController extends Controller
      */
     public function show($id)
     {
-    $siswa = Siswa::Find($id);
+    $siswa = siswa::Find($id);
        if(!$siswa){
            $response = [
                'success' => false,
