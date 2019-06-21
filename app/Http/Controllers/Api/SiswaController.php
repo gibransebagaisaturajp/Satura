@@ -16,19 +16,20 @@ class SiswaController extends Controller
     {
        $siswa = Siswa::all();
        if(!$siswa){
-           $response = [  
-           'succcess' => true,
-           'data' => $siswa,
-           'message' => 'Berhasil.'
-       ];
-        return response()->json($response,200);
-       }
-    $response = [
+        $response = [
          'success' => false,
          'data' => 'empty',
          'message' => 'siswa tidak di temukan.'
            ];
            return response()->json($response,404);
+       }
+       $response = [  
+           'succcess' => true,
+           'data' => $siswa,
+           'message' => 'Berhasil.'
+       ];
+        return response()->json($response,200);
+   
     }
 
     /**
@@ -49,6 +50,27 @@ class SiswaController extends Controller
      */
     public function store(Request $request)
     {
+        //Tampung semua inputan ke dalam $input
+        $input = $request->all();
+
+        //buat validasi ditampung ke $validator
+        if($validator->fails()){
+            $response =[
+                'success' => false,
+                'data' => 'Validator Eror',
+                'message' => $validator->errors()
+            ];
+            return response()->json($response,500);
+        }
+        //buat fungsi untuk menghandle semua inputan -> dimasuklan ke table
+        $siswa = Siswa::create($input);
+        
+        //menampilkan response
+        $response =[
+            'success' => true,
+            'data' =>$siswa,
+            'message' =>'siswa berhasih di tambah'
+        ];
     }
 
     /**
@@ -61,21 +83,21 @@ class SiswaController extends Controller
     {
     $siswa = Siswa::Find($id);
        if(!$siswa){
-          $response = [
-           'succcess' => true,
-           'data' => $siswa,
-           'message' => 'Berhasil'
-             ];
-        return response()->json($response,200);
-       }
-
-       
-            $response = [
+           $response = [
                'success' => false,
                'data' => 'empty',
                'message' => 'siswa tidak di temukan.'
            ];
            return response()->json($response,404);
+       }
+
+       $response = [
+           'succcess' => true,
+           'data' => $siswa,
+           'message' => 'Berhasil'
+             ];
+        return response()->json($response,200);
+           
     }
 
     /**
