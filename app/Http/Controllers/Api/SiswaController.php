@@ -16,20 +16,19 @@ class SiswaController extends Controller
     {
        $siswa = Siswa::all();
        if(!$siswa){
-           $response = [
-               'success' => false,
-               'data' => 'empty',
-               'message' => 'siswa tidak di temukan.'
-           ];
-           return response()->json($response,404);
-       }
-
-       $response = [
+           $response = [  
            'succcess' => true,
            'data' => $siswa,
            'message' => 'Berhasil.'
        ];
         return response()->json($response,200);
+       }
+    $response = [
+         'success' => false,
+         'data' => 'empty',
+         'message' => 'siswa tidak di temukan.'
+           ];
+           return response()->json($response,404);
     }
 
     /**
@@ -62,20 +61,21 @@ class SiswaController extends Controller
     {
     $siswa = Siswa::Find($id);
        if(!$siswa){
-           $response = [
+          $response = [
+           'succcess' => true,
+           'data' => $siswa,
+           'message' => 'Berhasil'
+             ];
+        return response()->json($response,200);
+       }
+
+       
+            $response = [
                'success' => false,
                'data' => 'empty',
                'message' => 'siswa tidak di temukan.'
            ];
            return response()->json($response,404);
-       }
-
-       $response = [
-           'succcess' => true,
-           'data' => $siswa,
-           'message' => 'Berhasil'
-       ];
-        return response()->json($response,200);
     }
 
     /**
