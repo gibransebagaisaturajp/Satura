@@ -184,6 +184,6 @@ class SiswaController extends Controller
             'data' => $siswa,
             'message' => 'Siswa Tidak Ditemukan.'
          ];
-         return response()->json($response,404);
+         return response()->json($response,200);
     }
 }
