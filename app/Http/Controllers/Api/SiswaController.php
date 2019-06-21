@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use App\Siswa;
 class SiswaController extends Controller
@@ -52,8 +53,13 @@ class SiswaController extends Controller
     {
         //Tampung semua inputan ke dalam $input
         $input = $request->all();
-
+        
         //buat validasi ditampung ke $validator
+        $validator = validator::make($input,[
+            'nama' => 'required'
+        ]);
+
+        //cek validasi
         if($validator->fails()){
             $response =[
                 'success' => false,
@@ -71,6 +77,8 @@ class SiswaController extends Controller
             'data' =>$siswa,
             'message' =>'siswa berhasih di tambah'
         ];
+        //tampilkan hasil
+         return response()->json($response,200);
     }
 
     /**
