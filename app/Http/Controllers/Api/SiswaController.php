@@ -56,7 +56,7 @@ class SiswaController extends Controller
         
         //buat validasi ditampung ke $validator
         $validator = validator::make($input,[
-            'nama' => 'required'
+            'nama' => 'required|min:15'
         ]);
 
         //cek validasi
@@ -127,6 +127,37 @@ class SiswaController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $siswa = siswa::Find($id);
+        $input = $request->all();
+        if(!$siswa){
+           $response = [
+               'success' => false,
+               'data' => 'empty',
+               'message' => 'siswa tidak di temukan.'
+           ];
+           return response()->json($response,404);
+       }
+
+        $validator = validator::make($input,[
+            'nama' => 'required|min:15'
+        ]);
+             if($validator->fails()){
+            $response =[
+                'success' => false,
+                'data' => 'Validator Eror',
+                'message' => $validator->errors()
+            ];
+            return response()->json($response,500);
+        }
+        $siswa->nama = $input['nama'];
+        $siswa->save();
+
+        $response = [
+         'succcess' => true,
+           'data' => $siswa,
+           'message' => 'Berhasil'
+             ];
+        return response()->json($response,200);
     }
 
     /**
