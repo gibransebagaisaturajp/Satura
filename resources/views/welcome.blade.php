@@ -1,863 +1,937 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE>
+<lang="en">
+
 <head>
-    <title>Hello World</title>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Title -->
+    <title>The News Paper - News &amp; Lifestyle Magazine Template</title>
 
-    <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
 
-    <!-- ElegantFonts CSS -->
-    <link rel="stylesheet" href="css/elegant-fonts.css">
-
-    <!-- themify-icons CSS -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
-
-    <!-- Styles -->
+    <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <header class="site-header">
-        <div class="top-header-bar">
-            <div class="container">
-                <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
-                    <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
-                        <div class="header-bar-email">
-                            MAIL: <a href="#">contact@ourcharity.com</a>
-                        </div><!-- .header-bar-email -->
-
-                        <div class="header-bar-text">
-                            <p>PHONE: <span>+24 3772 120 091 / +56452 4567</span></p>
-                        </div><!-- .header-bar-text -->
-                    </div><!-- .col -->
-
-                    <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
-                        <div class="donate-btn">
-                            <a href="#">Donate Now</a>
-                        </div><!-- .donate-btn -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .top-header-bar -->
-
-        <div class="nav-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="site-branding d-flex align-items-center">
-                           <a class="d-block" href="/" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
-                        </div><!-- .site-branding -->
-
-                        <nav class="site-navigation d-flex justify-content-end align-items-center">
-                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                <li class="current-menu-item"><a href="index">Home</a></li>
-                                <li><a href="about">About us</a></li>
-                                <li><a href="causes">Causes</a></li>
-                                <li><a href="portfolio">Gallery</a></li>
-                                <li><a href="news">News</a></li>
-                                <li><a href="contact">Contact</a></li>
-                            </ul>
-                        </nav><!-- .site-navigation -->
-
-                        <div class="hamburger-menu d-lg-none">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div><!-- .hamburger-menu -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .nav-bar -->
-    </header><!-- .site-header -->
-
-    <div class="swiper-container hero-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide hero-content-wrap">
-                <img src="images/hero.jpg" alt="">
-
-                <div class="hero-content-overlay position-absolute w-100 h-100">
-                    <div class="container h-100">
-                        <div class="row h-100">
-                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                                <header class="entry-header">
-                                    <h1>Donate</h1>
-                                    <h4>4 a better world</h4>
-                                </header><!-- .entry-header -->
-
-                                <div class="entry-content mt-4">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
-                                </div><!-- .entry-content -->
-
-                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                    <a href="#" class="btn orange-border">Read More</a>
-                                </footer><!-- .entry-footer -->
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .container -->
-                </div><!-- .hero-content-overlay -->
-            </div><!-- .hero-content-wrap -->
-
-            <div class="swiper-slide hero-content-wrap">
-                <img src="images/hero.jpg" alt="">
-
-                <div class="hero-content-overlay position-absolute w-100 h-100">
-                    <div class="container h-100">
-                        <div class="row h-100">
-                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                                <header class="entry-header">
-                                    <h1>Donate</h1>
-                                    <h4>4 a better world</h4>
-                                </header><!-- .entry-header -->
-
-                                <div class="entry-content mt-4">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
-                                </div><!-- .entry-content -->
-
-                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                    <a href="#" class="btn orange-border">Read More</a>
-                                </footer><!-- .entry-footer -->
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .container -->
-                </div><!-- .hero-content-overlay -->
-            </div><!-- .hero-content-wrap -->
-
-            <div class="swiper-slide hero-content-wrap">
-                <img src="images/hero.jpg" alt="">
-
-                <div class="hero-content-overlay position-absolute w-100 h-100">
-                    <div class="container h-100">
-                        <div class="row h-100">
-                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                                <header class="entry-header">
-                                    <h1>Donate</h1>
-                                    <h4>4 a better world</h4>
-                                </header><!-- .entry-header -->
-
-                                <div class="entry-content mt-4">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
-                                </div><!-- .entry-content -->
-
-                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                    <a href="#" class="btn orange-border">Read More</a>
-                                </footer><!-- .entry-footer -->
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .container -->
-                </div><!-- .hero-content-overlay -->
-            </div><!-- .hero-content-wrap -->
-        </div><!-- .swiper-wrapper -->
-
-        <div class="pagination-wrap position-absolute w-100">
-            <div class="container">
-                <div class="swiper-pagination"></div>
-            </div><!-- .container -->
-        </div><!-- .pagination-wrap -->
-
-        <!-- Add Arrows -->
-        <div class="swiper-button-next flex justify-content-center align-items-center">
-            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
-        </div>
-
-        <div class="swiper-button-prev flex justify-content-center align-items-center">
-            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
-        </div>
-    </div><!-- .hero-slider -->
-
-    <div class="home-page-icon-boxes">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                    <div class="icon-box active">
-                        <figure class="d-flex justify-content-center">
-                            <img src="images/hands-gray.png" alt="">
-                            <img src="images/hands-white.png" alt="">
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Become a Volunteer</h3>
-                        </header>
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <figure class="d-flex justify-content-center">
-                            <img src="images/donation-gray.png" alt="">
-                            <img src="images/donation-white.png" alt="">
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Dance & Music</h3>
-                        </header>
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                    <div class="icon-box">
-                        <figure class="d-flex justify-content-center">
-                            <img src="images/charity-gray.png" alt="">
-                            <img src="images/charity-white.png" alt="">
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Online Conference</h3>
-                        </header>
-
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .home-page-icon-boxes -->
-
-    <div class="home-page-welcome">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
-                    <div class="welcome-content">
-                        <header class="entry-header">
-                            <h2 class="entry-title">Wellcome to our Charity</h2>
-                        </header><!-- .entry-header -->
-
-                        <div class="entry-content mt-5">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus. Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.</p>
-                        </div><!-- .entry-content -->
-
-                        <div class="entry-footer mt-5">
-                            <a href="#" class="btn gradient-bg mr-2">Read More</a>
-                        </div><!-- .entry-footer -->
-                    </div><!-- .welcome-content -->
-                </div><!-- .col -->
-
-                <div class="col-12 col-lg-6 mt-4 order-1 order-lg-2">
-                    <img src="images/welcome.jpg" alt="welcome">
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .home-page-icon-boxes -->
-
-    <div class="home-page-events">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="upcoming-events">
-                        <div class="section-heading">
-                            <h2 class="entry-title">Upcoming Events</h2>
-                        </div><!-- .section-heading -->
-
-                        <div class="event-wrap d-flex flex-wrap justify-content-between">
-                            <figure class="m-0">
-                                <img src="images/event-1.jpg" alt="">
-                            </figure>
-
-                            <div class="event-content-wrap">
-                                <header class="entry-header d-flex flex-wrap align-items-center">
-                                    <h3 class="entry-title w-100 m-0"><a href="#">Fundraiser for Kids</a></h3>
-
-                                    <div class="posted-date">
-                                        <a href="#">Aug 25, 2018 </a>
-                                    </div><!-- .posted-date -->
-
-                                    <div class="cats-links">
-                                        <a href="#">Ball Room New York</a>
-                                    </div><!-- .cats-links -->
-                                </header><!-- .entry-header -->
-
-                                <div class="entry-content">
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                </div><!-- .entry-content -->
-
-                                <div class="entry-footer">
-                                    <a href="#">Read More</a>
-                                </div><!-- .entry-footer -->
-                            </div><!-- .event-content-wrap -->
-                        </div><!-- .event-wrap -->
-
-                        <div class="event-wrap d-flex flex-wrap justify-content-between">
-                            <figure class="m-0">
-                                <img src="images/event-2.jpg" alt="">
-                            </figure>
-
-                            <div class="event-content-wrap">
-                                <header class="entry-header d-flex flex-wrap align-items-center">
-                                    <h3 class="entry-title w-100 m-0"><a href="#">Bring water to the childrens</a></h3>
-
-                                    <div class="posted-date">
-                                        <a href="#">Aug 25, 2018 </a>
-                                    </div><!-- .posted-date -->
-
-                                    <div class="cats-links">
-                                        <a href="#">Ball Room New York</a>
-                                    </div><!-- .cats-links -->
-                                </header><!-- .entry-header -->
-
-                                <div class="entry-content">
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                </div><!-- .entry-content -->
-
-                                <div class="entry-footer">
-                                    <a href="#">Read More</a>
-                                </div><!-- .entry-footer -->
-                            </div><!-- .event-content-wrap -->
-                        </div><!-- .event-wrap -->
-
-                        <div class="event-wrap d-flex flex-wrap justify-content-between">
-                            <figure class="m-0">
-                                <img src="images/event-3.jpg" alt="">
-                            </figure>
-
-                            <div class="event-content-wrap">
-                                <header class="entry-header d-flex flex-wrap align-items-center">
-                                    <h3 class="entry-title w-100 m-0"><a href="#">Bring water to the childrens</a></h3>
-
-                                    <div class="posted-date">
-                                        <a href="#">Aug 25, 2018 </a>
-                                    </div><!-- .posted-date -->
-
-                                    <div class="cats-links">
-                                        <a href="#">Ball Room New York</a>
-                                    </div><!-- .cats-links -->
-                                </header><!-- .entry-header -->
-
-                                <div class="entry-content">
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                </div><!-- .entry-content -->
-
-                                <div class="entry-footer">
-                                    <a href="#">Read More</a>
-                                </div><!-- .entry-footer -->
-                            </div><!-- .event-content-wrap -->
-                        </div><!-- .event-wrap -->
-                    </div><!-- .upcoming-events -->
-                </div><!-- .col -->
-
-                <div class="col-12 col-lg-6">
-                    <div class="featured-cause">
-                        <div class="section-heading">
-                            <h2 class="entry-title">Featured Cause</h2>
-                        </div><!-- .section-heading -->
-
-                        <div class="cause-wrap d-flex flex-wrap justify-content-between">
-                            <figure class="m-0">
-                                <img src="images/featured-causes.jpg" alt="">
-                            </figure>
-
-                            <div class="cause-content-wrap">
-                                <header class="entry-header d-flex flex-wrap align-items-center">
-                                    <h3 class="entry-title w-100 m-0"><a href="#">Fundraiser for Kids</a></h3>
-
-                                    <div class="posted-date">
-                                        <a href="#">Aug 25, 2018 </a>
-                                    </div><!-- .posted-date -->
-
-                                    <div class="cats-links">
-                                        <a href="#">Ball Room New York</a>
-                                    </div><!-- .cats-links -->
-                                </header><!-- .entry-header -->
-
-                                <div class="entry-content">
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, consectetur.</p>
-                                </div><!-- .entry-content -->
-
-                                <div class="entry-footer mt-5">
-                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                </div><!-- .entry-footer -->
-                            </div><!-- .cause-content-wrap -->
-
-                            <div class="fund-raised w-100">
-                                <div class="featured-fund-raised-bar barfiller">
-                                    <div class="tipWrap">
-                                        <span class="tip"></span>
-                                    </div><!-- .tipWrap -->
-
-                                    <span class="fill" data-percentage="83"></span>
-                                </div><!-- .fund-raised-bar -->
-
-                                <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
-                                    <div class="fund-raised-total mt-4">
-                                        Raised: $56 880
-                                    </div><!-- .fund-raised-total -->
-
-                                    <div class="fund-raised-goal mt-4">
-                                        Goal: $70 000
-                                    </div><!-- .fund-raised-goal -->
-                                </div><!-- .fund-raised-details -->
-                            </div><!-- .fund-raised -->
-                        </div><!-- .cause-wrap -->
-                    </div><!-- .featured-cause -->
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .home-page-events -->
-
-    <div class="our-causes">
-        <div class="container">
-            <div class="row">
-                <div class="coL-12">
-                    <div class="section-heading">
-                        <h2 class="entry-title">Our Causes</h2>
-                    </div><!-- .section-heading -->
-                </div><!-- .col -->
-            </div><!-- .row -->
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="swiper-container causes-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="cause-wrap">
-                                    <figure class="m-0">
-                                        <img src="images/cause-1.jpg" alt="">
-
-                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                            <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                        </div><!-- .figure-overlay -->
-                                    </figure>
-
-                                    <div class="cause-content-wrap">
-                                        <header class="entry-header d-flex flex-wrap align-items-center">
-                                            <h3 class="entry-title w-100 m-0"><a href="#">Bring water to the childrens</a></h3>
-                                        </header><!-- .entry-header -->
-
-                                        <div class="entry-content">
-                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                        </div><!-- .entry-content -->
-
-                                        <div class="fund-raised w-100">
-                                            <div class="fund-raised-bar-1 barfiller">
-                                                <div class="tipWrap">
-                                                    <span class="tip"></span>
-                                                </div><!-- .tipWrap -->
-
-                                                <span class="fill" data-percentage="83"></span>
-                                            </div><!-- .fund-raised-bar -->
-
-                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
-                                                <div class="fund-raised-total mt-4">
-                                                    Raised: $56 880
-                                                </div><!-- .fund-raised-total -->
-
-                                                <div class="fund-raised-goal mt-4">
-                                                    Goal: $70 000
-                                                </div><!-- .fund-raised-goal -->
-                                            </div><!-- .fund-raised-details -->
-                                        </div><!-- .fund-raised -->
-                                    </div><!-- .cause-content-wrap -->
-                                </div><!-- .cause-wrap -->
-                            </div><!-- .swiper-slide -->
-
-                            <div class="swiper-slide">
-                                <div class="cause-wrap">
-                                    <figure class="m-0">
-                                        <img src="images/cause-2.jpg" alt="">
-
-                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                            <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                        </div><!-- .figure-overlay -->
-                                    </figure>
-
-                                    <div class="cause-content-wrap">
-                                        <header class="entry-header d-flex flex-wrap align-items-center">
-                                            <h3 class="entry-title w-100 m-0"><a href="#">Education for all</a></h3>
-                                        </header><!-- .entry-header -->
-
-                                        <div class="entry-content">
-                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                        </div><!-- .entry-content -->
-
-                                        <div class="fund-raised w-100">
-                                            <div class="fund-raised-bar-2 barfiller">
-                                                <div class="tipWrap">
-                                                    <span class="tip"></span>
-                                                </div><!-- .tipWrap -->
-
-                                                <span class="fill" data-percentage="70"></span>
-                                            </div><!-- .fund-raised-bar -->
-
-                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
-                                                <div class="fund-raised-total mt-4">
-                                                    Raised: $56 880
-                                                </div><!-- .fund-raised-total -->
-
-                                                <div class="fund-raised-goal mt-4">
-                                                    Goal: $70 000
-                                                </div><!-- .fund-raised-goal -->
-                                            </div><!-- .fund-raised-details -->
-                                        </div><!-- .fund-raised -->
-                                    </div><!-- .cause-content-wrap -->
-                                </div><!-- .cause-wrap -->
-                            </div><!-- .swiper-slide -->
-
-                            <div class="swiper-slide">
-                                <div class="cause-wrap">
-                                    <figure class="m-0">
-                                        <img src="images/cause-3.jpg" alt="">
-
-                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                            <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                        </div><!-- .figure-overlay -->
-                                    </figure>
-
-                                    <div class="cause-content-wrap">
-                                        <header class="entry-header d-flex flex-wrap align-items-center">
-                                            <h3 class="entry-title w-100 m-0"><a href="#">Bring water to the childrens</a></h3>
-                                        </header><!-- .entry-header -->
-
-                                        <div class="entry-content">
-                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                        </div><!-- .entry-content -->
-
-                                        <div class="fund-raised w-100">
-                                            <div class="fund-raised-bar-3 barfiller">
-                                                <div class="tipWrap">
-                                                    <span class="tip"></span>
-                                                </div><!-- .tipWrap -->
-
-                                                <span class="fill" data-percentage="83"></span>
-                                            </div><!-- .fund-raised-bar -->
-
-                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
-                                                <div class="fund-raised-total mt-4">
-                                                    Raised: $56 880
-                                                </div><!-- .fund-raised-total -->
-
-                                                <div class="fund-raised-goal mt-4">
-                                                    Goal: $70 000
-                                                </div><!-- .fund-raised-goal -->
-                                            </div><!-- .fund-raised-details -->
-                                        </div><!-- .fund-raised -->
-                                    </div><!-- .cause-content-wrap -->
-                                </div><!-- .cause-wrap -->
-                            </div><!-- .swiper-slide -->
-
-                            <div class="swiper-slide">
-                                <div class="cause-wrap">
-                                    <figure class="m-0">
-                                        <img src="images/cause-1.jpg" alt="">
-
-                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                            <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                        </div><!-- .figure-overlay -->
-                                    </figure>
-
-                                    <div class="cause-content-wrap">
-                                        <header class="entry-header d-flex flex-wrap align-items-center">
-                                            <h3 class="entry-title w-100 m-0"><a href="#">Bring water to the childrens</a></h3>
-                                        </header><!-- .entry-header -->
-
-                                        <div class="entry-content">
-                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                        </div><!-- .entry-content -->
-
-                                        <div class="fund-raised w-100">
-                                            <div class="fund-raised-bar-4 barfiller">
-                                                <div class="tipWrap">
-                                                    <span class="tip"></span>
-                                                </div><!-- .tipWrap -->
-
-                                                <span class="fill" data-percentage="83"></span>
-                                            </div><!-- .fund-raised-bar -->
-
-                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
-                                                <div class="fund-raised-total mt-4">
-                                                    Raised: $56 880
-                                                </div><!-- .fund-raised-total -->
-
-                                                <div class="fund-raised-goal mt-4">
-                                                    Goal: $70 000
-                                                </div><!-- .fund-raised-goal -->
-                                            </div><!-- .fund-raised-details -->
-                                        </div><!-- .fund-raised -->
-                                    </div><!-- .cause-content-wrap -->
-                                </div><!-- .cause-wrap -->
-                            </div><!-- .swiper-slide -->
-
-                            <div class="swiper-slide">
-                                <div class="cause-wrap">
-                                    <figure class="m-0">
-                                        <img src="images/cause-2.jpg" alt="">
-
-                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                            <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                        </div><!-- .figure-overlay -->
-                                    </figure>
-
-                                    <div class="cause-content-wrap">
-                                        <header class="entry-header d-flex flex-wrap align-items-center">
-                                            <h3 class="entry-title w-100 m-0"><a href="#">Education for all</a></h3>
-                                        </header><!-- .entry-header -->
-
-                                        <div class="entry-content">
-                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                        </div><!-- .entry-content -->
-
-                                        <div class="fund-raised w-100">
-                                            <div class="fund-raised-bar-5 barfiller">
-                                                <div class="tipWrap">
-                                                    <span class="tip"></span>
-                                                </div><!-- .tipWrap -->
-
-                                                <span class="fill" data-percentage="70"></span>
-                                            </div><!-- .fund-raised-bar -->
-
-                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
-                                                <div class="fund-raised-total mt-4">
-                                                    Raised: $56 880
-                                                </div><!-- .fund-raised-total -->
-
-                                                <div class="fund-raised-goal mt-4">
-                                                    Goal: $70 000
-                                                </div><!-- .fund-raised-goal -->
-                                            </div><!-- .fund-raised-details -->
-                                        </div><!-- .fund-raised -->
-                                    </div><!-- .cause-content-wrap -->
-                                </div><!-- .cause-wrap -->
-                            </div><!-- .swiper-slide -->
-
-                            <div class="swiper-slide">
-                                <div class="cause-wrap">
-                                    <figure class="m-0">
-                                        <img src="images/cause-3.jpg" alt="">
-
-                                        <div class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
-                                            <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                        </div><!-- .figure-overlay -->
-                                    </figure>
-
-                                    <div class="cause-content-wrap">
-                                        <header class="entry-header d-flex flex-wrap align-items-center">
-                                            <h3 class="entry-title w-100 m-0"><a href="#">Bring water to the childrens</a></h3>
-                                        </header><!-- .entry-header -->
-
-                                        <div class="entry-content">
-                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                        </div><!-- .entry-content -->
-
-                                        <div class="fund-raised w-100">
-                                            <div class="fund-raised-bar-6 barfiller">
-                                                <div class="tipWrap">
-                                                    <span class="tip"></span>
-                                                </div><!-- .tipWrap -->
-
-                                                <span class="fill" data-percentage="83"></span>
-                                            </div><!-- .fund-raised-bar -->
-
-                                            <div class="fund-raised-details d-flex flex-wrap justify-content-between align-items-center">
-                                                <div class="fund-raised-total mt-4">
-                                                    Raised: $56 880
-                                                </div><!-- .fund-raised-total -->
-
-                                                <div class="fund-raised-goal mt-4">
-                                                    Goal: $70 000
-                                                </div><!-- .fund-raised-goal -->
-                                            </div><!-- .fund-raised-details -->
-                                        </div><!-- .fund-raised -->
-                                    </div><!-- .cause-content-wrap -->
-                                </div><!-- .cause-wrap -->
-                            </div><!-- .swiper-slide -->
-                        </div><!-- .swiper-wrapper -->
-
-                    </div><!-- .swiper-container -->
-
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next flex justify-content-center align-items-center">
-                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
-                    </div>
-
-                    <div class="swiper-button-prev flex justify-content-center align-items-center">
-                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
-                    </div>
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .our-causes -->
-
-    <div class="home-page-limestone">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="coL-12 col-lg-6">
-                    <div class="section-heading">
-                        <h2 class="entry-title">We love to help all the children that have problems in the world. After 15 years we have many goals achieved.</h2>
-
-                        <p class="mt-5">Dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet.</p>
-                    </div><!-- .section-heading -->
-                </div><!-- .col -->
-
-                <div class="col-12 col-lg-6">
-                    <div class="milestones d-flex flex-wrap justify-content-between">
-                        <div class="col-12 col-sm-4 mt-5 mt-lg-0">
-                            <div class="counter-box">
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <img src="images/teamwork.png" alt="">
-                                </div>
-
-                                <div class="d-flex justify-content-center align-items-baseline">
-                                    <div class="start-counter" data-to="120" data-speed="2000"></div>
-                                    <div class="counter-k">K</div>
-                                </div>
-
-                                <h3 class="entry-title">Children helped</h3><!-- entry-title -->
-                            </div><!-- counter-box -->
-                        </div><!-- .col -->
-
-                        <div class="col-12 col-sm-4 mt-5 mt-lg-0">
-                            <div class="counter-box">
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <img src="images/donation.png" alt="">
-                                </div>
-
-                                <div class="d-flex justify-content-center align-items-baseline">
-                                    <div class="start-counter" data-to="79" data-speed="2000"></div>
-                                </div>
-
-                                <h3 class="entry-title">Water wells</h3><!-- entry-title -->
-                            </div><!-- counter-box -->
-                        </div><!-- .col -->
-
-                        <div class="col-12 col-sm-4 mt-5 mt-lg-0">
-                            <div class="counter-box">
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <img src="images/dove.png" alt="">
-                                </div>
-
-                                <div class="d-flex justify-content-center align-items-baseline">
-                                    <div class="start-counter" data-to="253" data-speed="2000"></div>
-                                </div>
-
-                                <h3 class="entry-title">Volunteeres</h3><!-- entry-title -->
-                            </div><!-- counter-box -->
-                        </div><!-- .col -->
-                    </div><!-- .milestones -->
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .our-causes -->
-
-    <footer class="site-footer">
-        <div class="footer-widgets">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="foot-about">
-                            <h2><a class="foot-logo" href="#"><img src="images/foot-logo.png" alt=""></a></h2>
-
-                            <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Mauris temp us vestib ulum mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.Lorem ipsum dolo.</p>
-
-                            <ul class="d-flex flex-wrap align-items-center">
-                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div><!-- .foot-about -->
-                    </div><!-- .col -->
-
-                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                        <h2>Useful Links</h2>
-
-                        <ul>
-                            <li><a href="#">Privacy Polticy</a></li>
-                            <li><a href="#">Become  a Volunteer</a></li>
-                            <li><a href="#">Donate</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Causes</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">News</a></li>
-                        </ul>
-                    </div><!-- .col -->
-
-                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                        <div class="foot-latest-news">
-                            <h2>Latest News</h2>
-
-                            <ul>
-                                <li>
-                                    <h3><a href="#">A new cause to help</a></h3>
-                                    <div class="posted-date">MArch 12, 2018</div>
-                                </li>
-
-                                <li>
-                                    <h3><a href="#">We love to help people</a></h3>
-                                    <div class="posted-date">MArch 12, 2018</div>
-                                </li>
-
-                                <li>
-                                    <h3><a href="#">The new ideas for helping</a></h3>
-                                    <div class="posted-date">MArch 12, 2018</div>
-                                </li>
-                            </ul>
-                        </div><!-- .foot-latest-news -->
-                    </div><!-- .col -->
-
-                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                        <div class="foot-contact">
-                            <h2>Contact</h2>
-
-                            <ul>
-                                <li><i class="fa fa-phone"></i><span>+45 677 8993000 223</span></li>
-                                <li><i class="fa fa-envelope"></i><span>office@template.com</span></li>
-                                <li><i class="fa fa-map-marker"></i><span>Main Str. no 45-46, b3, 56832, Los Angeles, CA</span></li>
-                            </ul>
-                        </div><!-- .foot-contact -->
-
-                        <div class="subscribe-form">
-                            <form class="d-flex flex-wrap align-items-center">
-                                <input type="email" placeholder="Your email">
-                                <input type="submit" value="send">
-                            </form><!-- .flex -->
-                        </div><!-- .search-widget -->
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .footer-widgets -->
-
-        <div class="footer-bar">
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header-area">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p class="m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="/"><img src="img/core-img/logo.png" alt=""></a>
+                            </div>
+
+                            <!-- Login Search Area -->
+                            <div class="login-search-area d-flex align-items-center">
+                                <!-- Login -->
+                                <div class="login d-flex">
+                                    <a href="#">Login</a>
+                                    <a href="#">Register</a>
+                                </div>
+                                <!-- Search Form -->
+                                <div class="search-form">
+                                    <form action="#" method="post">
+                                        <input type="search" name="search" class="form-control" placeholder="Search">
+                                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="newspaper-main-menu" id="stickyMenu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="newspaperNav">
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="/"><img src="img/core-img/logo.png" alt=""></a>
+                        </div>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li class="active"><a href="/">Home</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="catagories-post">Catagories</a></li>
+                                            <li><a href="single-post">Single Articles</a></li>
+                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="contact">Contact</a></li>
+                                            <li><a href="#">Dropdown</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="/">Home</a></li>
+                                                    <li><a href="catagories-post">Catagories</a></li>
+                                                    <li><a href="single-post">Single Articles</a></li>
+                                                    <li><a href="about">About Us</a></li>
+                                                    <li><a href="contact">Contact</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Mega Menu</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li class="title">Catagories</li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="catagories-post">Catagories</a></li>
+                                                <li><a href="single-post">Single Articles</a></li>
+                                                <li><a href="about">About Us</a></li>
+                                                <li><a href="contact">Contact</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li class="title">Catagories</li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="catagories-post">Catagories</a></li>
+                                                <li><a href="single-post">Single Articles</a></li>
+                                                <li><a href="about">About Us</a></li>
+                                                <li><a href="contact">Contact</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li class="title">Catagories</li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="catagories-post">Catagories</a></li>
+                                                <li><a href="single-post">Single Articles</a></li>
+                                                <li><a href="about">About Us</a></li>
+                                                <li><a href="contact">Contact</a></li>
+                                            </ul>
+                                            <div class="single-mega cn-col-4">
+                                                <!-- Single Featured Post -->
+                                                <div class="single-blog-post small-featured-post d-flex">
+                                                    <div class="post-thumb">
+                                                        <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-data">
+                                                        <a href="#" class="post-catagory">Travel</a>
+                                                        <div class="post-meta">
+                                                            <a href="#" class="post-title">
+                                                                <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
+                                                            </a>
+                                                            <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Single Featured Post -->
+                                                <div class="single-blog-post small-featured-post d-flex">
+                                                    <div class="post-thumb">
+                                                        <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-data">
+                                                        <a href="#" class="post-catagory">Politics</a>
+                                                        <div class="post-meta">
+                                                            <a href="#" class="post-title">
+                                                                <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
+                                                            </a>
+                                                            <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Politics</a></li>
+                                    <li><a href="#">Breaking News</a></li>
+                                    <li><a href="#">Business</a></li>
+                                    <li><a href="#">Technology</a></li>
+                                    <li><a href="#">Health</a></li>
+                                    <li><a href="#">Travel</a></li>
+                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="contact">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <div class="hero-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-8">
+                    <!-- Breaking News Widget -->
+                    <div class="breaking-news-area d-flex align-items-center">
+                        <div class="news-title">
+                            <p>Breaking News</p>
+                        </div>
+                        <div id="breakingNewsTicker" class="ticker">
+                            <ul>
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                <li><a href="#">Welcome to Colorlib Family.</a></li>
+                                <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Breaking News Widget -->
+                    <div class="breaking-news-area d-flex align-items-center mt-15">
+                        <div class="news-title title2">
+                            <p>International</p>
+                        </div>
+                        <div id="internationalTicker" class="ticker">
+                            <ul>
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                <li><a href="#">Welcome to Colorlib Family.</a></li>
+                                <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Add -->
+                <div class="col-12 col-lg-4">
+                    <div class="hero-add">
+                        <a href="#"><img src="img/bg-img/hero-add.gif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Featured Post Area Start ##### -->
+    <div class="featured-post-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-8">
+                    <div class="row">
+
+                        <!-- Single Featured Post -->
+                        <div class="col-12 col-lg-7">
+                            <div class="single-blog-post featured-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/16.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">Finance</a>
+                                    <a href="#" class="post-title">
+                                        <h6>Financial news: A new company is born today at the stock market</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <p class="post-author">By <a href="#">Christinne Williams</a></p>
+                                        <p class="post-excerp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem. </p>
+                                        <!-- Post Like & Post Comment -->
+                                        <div class="d-flex align-items-center">
+                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-5">
+                            <!-- Single Featured Post -->
+                            <div class="single-blog-post featured-post-2">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/17.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">Finance</a>
+                                    <div class="post-meta">
+                                        <a href="#" class="post-title">
+                                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac...</h6>
+                                        </a>
+                                        <!-- Post Like & Post Comment -->
+                                        <div class="d-flex align-items-center">
+                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Featured Post -->
+                            <div class="single-blog-post featured-post-2">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/18.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">Finance</a>
+                                    <div class="post-meta">
+                                        <a href="#" class="post-title">
+                                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac...</h6>
+                                        </a>
+                                        <!-- Post Like & Post Comment -->
+                                        <div class="d-flex align-items-center">
+                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/19.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Finance</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/20.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Politics</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Sed a elit euismod augue semper congue sit amet ac sapien.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/21.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Health</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/22.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Finance</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Travel</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Politics</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Featured Post Area End ##### -->
+
+    <!-- ##### Popular News Area Start ##### -->
+    <div class="popular-news-area section-padding-80-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="section-heading">
+                        <h6>Popular News</h6>
+                    </div>
+
+                    <div class="row">
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-md-6">
+                            <div class="single-blog-post style-3">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/12.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">Finance</a>
+                                    <a href="#" class="post-title">
+                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
+                                    </a>
+                                    <div class="post-meta d-flex align-items-center">
+                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-md-6">
+                            <div class="single-blog-post style-3">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/13.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">Finance</a>
+                                    <a href="#" class="post-title">
+                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
+                                    </a>
+                                    <div class="post-meta d-flex align-items-center">
+                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-md-6">
+                            <div class="single-blog-post style-3">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/14.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">Finance</a>
+                                    <a href="#" class="post-title">
+                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
+                                    </a>
+                                    <div class="post-meta d-flex align-items-center">
+                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-md-6">
+                            <div class="single-blog-post style-3">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/15.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">Finance</a>
+                                    <a href="#" class="post-title">
+                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
+                                    </a>
+                                    <div class="post-meta d-flex align-items-center">
+                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="section-heading">
+                        <h6>Info</h6>
+                    </div>
+                    <!-- Popular News Widget -->
+                    <div class="popular-news-widget mb-30">
+                        <h3>4 Most Popular News</h3>
+
+                        <!-- Single Popular Blog -->
+                        <div class="single-popular-post">
+                            <a href="#">
+                                <h6><span>1.</span> Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.</h6>
+                            </a>
+                            <p>April 14, 2018</p>
+                        </div>
+
+                        <!-- Single Popular Blog -->
+                        <div class="single-popular-post">
+                            <a href="#">
+                                <h6><span>2.</span> Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.</h6>
+                            </a>
+                            <p>April 14, 2018</p>
+                        </div>
+
+                        <!-- Single Popular Blog -->
+                        <div class="single-popular-post">
+                            <a href="#">
+                                <h6><span>3.</span> Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.</h6>
+                            </a>
+                            <p>April 14, 2018</p>
+                        </div>
+
+                        <!-- Single Popular Blog -->
+                        <div class="single-popular-post">
+                            <a href="#">
+                                <h6><span>4.</span> Eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
+                            </a>
+                            <p>April 14, 2018</p>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Widget -->
+                    <div class="newsletter-widget">
+                        <h4>Newsletter</h4>
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <form action="#" method="post">
+                            <input type="text" name="text" placeholder="Name">
+                            <input type="email" name="email" placeholder="Email">
+                            <button type="submit" class="btn w-100">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Popular News Area End ##### -->
+
+    <!-- ##### Video Post Area Start ##### -->
+    <div class="video-post-area bg-img bg-overlay" style="background-image: url(img/bg-img/bg1.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Single Video Post -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-video-post">
+                        <img src="img/bg-img/video1.jpg" alt="">
+                        <!-- Video Button -->
+                        <div class="videobtn">
+                            <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Video Post -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-video-post">
+                        <img src="img/bg-img/video2.jpg" alt="">
+                        <!-- Video Button -->
+                        <div class="videobtn">
+                            <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Video Post -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="single-video-post">
+                        <img src="img/bg-img/video3.jpg" alt="">
+                        <!-- Video Button -->
+                        <div class="videobtn">
+                            <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Video Post Area End ##### -->
+
+    <!-- ##### Editorial Post Area Start ##### -->
+    <div class="editors-pick-post-area section-padding-80-50">
+        <div class="container">
+            <div class="row">
+                <!-- Editors Pick -->
+                <div class="col-12 col-md-7 col-lg-9">
+                    <div class="section-heading">
+                        <h6>Editor’s Pick</h6>
+                    </div>
+
+                    <div class="row">
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-lg-4">
+                            <div class="single-blog-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/1.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-title">
+                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-lg-4">
+                            <div class="single-blog-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/2.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-title">
+                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-lg-4">
+                            <div class="single-blog-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/3.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-title">
+                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-lg-4">
+                            <div class="single-blog-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/4.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-title">
+                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-lg-4">
+                            <div class="single-blog-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-title">
+                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Post -->
+                        <div class="col-12 col-lg-4">
+                            <div class="single-blog-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/6.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-title">
+                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- World News -->
+                <div class="col-12 col-md-5 col-lg-3">
+                    <div class="section-heading">
+                        <h6>World News</h6>
+                    </div>
+
+                    <!-- Single Post -->
+                    <div class="single-blog-post style-2">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/7.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-title">
+                                <h6>Orci varius natoque penatibus et magnis</h6>
+                            </a>
+                            <div class="post-meta">
+                                <div class="post-date"><a href="#">February 11, 2018</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Post -->
+                    <div class="single-blog-post style-2">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/8.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-title">
+                                <h6>Orci varius natoque penatibus et magnis</h6>
+                            </a>
+                            <div class="post-meta">
+                                <div class="post-date"><a href="#">February 11, 2018</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Post -->
+                    <div class="single-blog-post style-2">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/9.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-title">
+                                <h6>Orci varius natoque penatibus et magnis</h6>
+                            </a>
+                            <div class="post-meta">
+                                <div class="post-date"><a href="#">February 11, 2018</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Post -->
+                    <div class="single-blog-post style-2">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/10.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-title">
+                                <h6>Orci varius natoque penatibus et magnis</h6>
+                            </a>
+                            <div class="post-meta">
+                                <div class="post-date"><a href="#">February 11, 2018</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Post -->
+                    <div class="single-blog-post style-2">
+                        <div class="post-thumb">
+                            <a href="#"><img src="img/bg-img/11.jpg" alt=""></a>
+                        </div>
+                        <div class="post-data">
+                            <a href="#" class="post-title">
+                                <h6>Orci varius natoque penatibus et magnis</h6>
+                            </a>
+                            <div class="post-meta">
+                                <div class="post-date"><a href="#">February 11, 2018</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Editorial Post Area End ##### -->
+
+    <!-- ##### Footer Add Area Start ##### -->
+    <div class="footer-add-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-add">
+                        <a href="#"><img src="img/bg-img/footer-add.gif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Footer Add Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="footer-widget-area mt-80">
+                            <!-- Footer Logo -->
+                            <div class="footer-logo">
+                                <a href="/"><img src="img/core-img/logo.png" alt=""></a>
+                            </div>
+                            <!-- List -->
+                            <ul class="list">
+                                <li><a href="mailto:contact@youremail.com">contact@youremail.com</a></li>
+                                <li><a href="tel:+4352782883884">+43 5278 2883 884</a></li>
+                                <li><a href="http://yoursitename.com">www.yoursitename.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-2">
+                        <div class="footer-widget-area mt-80">
+                            <!-- Title -->
+                            <h4 class="widget-title">Politics</h4>
+                            <!-- List -->
+                            <ul class="list">
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Markets</a></li>
+                                <li><a href="#">Tech</a></li>
+                                <li><a href="#">Luxury</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-4 col-lg-2">
+                        <div class="footer-widget-area mt-80">
+                            <!-- Title -->
+                            <h4 class="widget-title">Featured</h4>
+                            <!-- List -->
+                            <ul class="list">
+                                <li><a href="#">Football</a></li>
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Tennis</a></li>
+                                <li><a href="#">Motorsport</a></li>
+                                <li><a href="#">Horseracing</a></li>
+                                <li><a href="#">Equestrian</a></li>
+                                <li><a href="#">Sailing</a></li>
+                                <li><a href="#">Skiing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-4 col-lg-2">
+                        <div class="footer-widget-area mt-80">
+                            <!-- Title -->
+                            <h4 class="widget-title">FAQ</h4>
+                            <!-- List -->
+                            <ul class="list">
+                                <li><a href="#">Aviation</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Traveller</a></li>
+                                <li><a href="#">Destinations</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Food/Drink</a></li>
+                                <li><a href="#">Hotels</a></li>
+                                <li><a href="#">Partner Hotels</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-4 col-lg-2">
+                        <div class="footer-widget-area mt-80">
+                            <!-- Title -->
+                            <h4 class="widget-title">+More</h4>
+                            <!-- List -->
+                            <ul class="list">
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Architecture</a></li>
+                                <li><a href="#">Arts</a></li>
+                                <li><a href="#">Autos</a></li>
+                                <li><a href="#">Luxury</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <!-- Copywrite -->
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div><!-- .col-12 -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .footer-bar -->
-    </footer><!-- .site-footer -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
 
-    <script type='text/javascript' src='js/jquery.js'></script>
-    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
-    <script type='text/javascript' src='js/swiper.min.js'></script>
-    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
-    <script type='text/javascript' src='js/circle-progress.min.js'></script>
-    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
-    <script type='text/javascript' src='js/jquery.barfiller.js'></script>
-    <script type='text/javascript' src='js/custom.js'></script>
-
+    <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </body>
-</html>
+
+<>

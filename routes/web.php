@@ -31,21 +31,16 @@ Route::get('admin', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/single', function () {
-    return view('single');
-});
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
-Route::get('/news', function () {
-    return view('news');
-});
-Route::get('/elements', function () {
-    return view('elements');
+Route::get('/single-post', function () {
+    return view('single-post');
 });
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('/causes', function () {
+Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/catagories-post', function () {
+    return view('catagories-post');
 });
