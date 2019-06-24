@@ -1,937 +1,917 @@
-<!DOCTYPE>
-<lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sports</title>
+    <!-- Goole Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,500" rel="stylesheet"> 
 
-    <!-- Title -->
-    <title>The News Paper - News &amp; Lifestyle Magazine Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- Font Awesome -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	
+    <!-- Owl carousel -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	 <link href="css/owl.theme.default.min.css" rel="stylesheet">
 
-    <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Off Canvas Menu -->
+    <link href="css/offcanvas.min.css" rel="stylesheet">
 
-</head>
+    <!--Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 <body>
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
+<div id="main-wrapper">
 
-        <!-- Top Header Area -->
-        <div class="top-header-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="top-header-content d-flex align-items-center justify-content-between">
-                            <!-- Logo -->
-                            <div class="logo">
-                                <a href="/"><img src="img/core-img/logo.png" alt=""></a>
-                            </div>
+    <!-- Header Section -->
+	<header>
+	    <div class="container">
+	     	<div class="top_ber">
+				<div class="row">
+		    		<div class="col-md-6">
+						<div class="top_ber_left">
+							20 August. Thursday 2015. 2:00 PM.
+						</div><!--top_ber_left-->
+		    		</div><!--col-md-6-->
+		    		<div class="col-md-6">
+		    			<div class="top_ber_right">
+		    				<div class="top-menu">
+		    					<ul class="nav navbar-nav">    
+			                        <li><a href="#">Login</a></li>
+			                        <li><a href="#">Register</a></li>
+	                    		</ul>
+		    				</div><!--top-menu-->
+		    			</div><!--top_ber_left-->
+		    		</div><!--col-md-6-->
+		    	</div><!--row-->
+	     	</div><!--top_ber-->
+	     	
+	     	<div class="header-section">
+				<div class="row">
+		    	 	<div class="col-md-3">
+						<div class="logo">
+						<a  href="index.html"><img class="img-responsive" src="img/logo.png" alt=""></a>
+						</div><!--logo-->
+		    	 	</div><!--col-md-3-->
+		    	 	
+		    	 	<div class="col-md-6">
+						<div class="header_ad_banner">
+						<a  href="#"><img class="img-responsive" src="img/img_ad.jpg" alt=""></a>
+						</div>
+		    	 	</div><!--col-md-6-->
+		    	 	
+		    	 	<div class="col-md-3">
+						<div class="social_icon1">
+								<a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
+								<!--Twitter-->
+								<a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a>
+								<!--Google +-->
+								<a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a>
+								<!--Linkedin-->
+								<a class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a> 
+								<!--Pinterest-->
+								<a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a>
+						</div> <!--social_icon1-->
+		    	 	</div><!--col-md-3-->
+		    	</div> <!--row-->	
+	     	</div><!--header-section-->    	      
+	    </div><!-- /.container -->   
 
-                            <!-- Login Search Area -->
-                            <div class="login-search-area d-flex align-items-center">
-                                <!-- Login -->
-                                <div class="login d-flex">
-                                    <a href="#">Login</a>
-                                    <a href="#">Register</a>
-                                </div>
-                                <!-- Search Form -->
-                                <div class="search-form">
-                                    <form action="#" method="post">
-                                        <input type="search" name="search" class="form-control" placeholder="Search">
-                                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+		<nav class="navbar main-menu navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
+				<ul class="nav navbar-nav">
+					<li class="hidden"><a href="#page-top"></a></li>
+					<li><a class="page-scroll" href="category">Baseball</a></li>
+					<li><a class="page-scroll" href="category">Football</a></li>
+					<li><a class="page-scroll" href="category">Hockey</a></li>
+					<li><a class="page-scroll" href="category">Basketball</a></li>
+					<li><a class="page-scroll" href="category">Boxing</a></li>
+					<li><a class="page-scroll" href="category">Golf</a></li>
+					<li><a class="page-scroll" href="category">Tennis</a></li>
+					<li><a class="page-scroll" href="category">Horse racing</a></li>
+					<li><a class="page-scroll" href="category">Track & Field</a></li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="pull-right">
+					<form class="navbar-form" role="search">
+						<div class="input-group">
+							<input class="form-control" placeholder="Search" name="q" type="text">
+							<div class="input-group-btn">
+								<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</form>
+				</div>
+				</div>
+			</div>
+		</nav> 
+		<!-- .navbar -->
+	</header>
+
+    <!-- Feature Carousel Section -->
+    <section id="feature_news_section" class="feature_news_section section_wrapper">
+	<div class="container">   
+	    <div class="row">
+	    	<div class="col-md-6">
+	    		<div class="feature_news_carousel">
+					<div id="featured-news-carousal" class="carousel slide" data-ride="carousel">
+					    <!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">					    
+							<div class="item active feature_news_item">
+								<div class="item_wrapper">
+									<div class="item_img">
+										<img class="img-responsive" src="img/img-carousel1.jpg" alt="Chania">
+									</div> <!--item_img-->
+									<div class="item_title_date">
+										<div class="news_item_title">
+											<h2><a href="single">Seamlessly embrace B2C catalysts for change vis-a-vis economically sound communities.</a></h2>
+										</div>
+										<div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+									</div> <!--item_title_date-->
+								</div>	<!--item_wrapper-->
+							    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</div>
+
+							</div><!--feature_news_item-->
+
+							<div class="item feature_news_item">
+								<div class="item_wrapper">
+									<div class="item_img">
+										<img class="img-responsive" src="img/img-carousel2.jpg" alt="Chania">
+									</div> <!--item_img--> 
+									<div class="item_title_date">
+										<div class="news_item_title">
+											<h2><a href="#">Manchester United want to Back Cristiano Ronaldo natus error sit.</a></h2>
+										</div>
+                                        <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+									</div> <!--item_title_date-->
+								</div> <!--item_wrapper-->	
+								
+								<div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+								</div>
+
+							</div><!--feature_news_item-->
+							 
+
+					  		<!-- Left and right controls -->
+							<div class="control-wrapper">
+								<a class="left carousel-control" href="#featured-news-carousal" role="button" data-slide="prev">
+									<i class="fa fa-chevron-left" aria-hidden="true"></i>
+								</a>
+								<a class="right carousel-control" href="#featured-news-carousal" role="button" data-slide="next">
+									<i class="fa fa-chevron-right" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div><!--carousel-inner-->
+	    			</div><!--carousel-->
+	    		</div><!--feature_news_carousel-->
+	    	</div><!--col-md-6-->
+	    	
+	    	<div class="col-md-6">
+	    		<div class="feature_news_static">
+		    		<div class="row">								 
+						<div class="col-md-6">
+							<div class="feature_news_item">
+	                			<div class="item active">
+									<div class="item_wrapper">
+										<div class="item_img">
+											<img class="img-responsive" src="img/img_feature.jpg" alt="Chania">
+										</div> <!--item_img-->
+										<div class="item_title_date">
+											<div class="news_item_title">
+												<h2><a href="single">Track Roboto the Real Tracker.</a></h2>
+											</div>
+                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+										</div><!--item_title_date-->
+									</div> <!--item_wrapper-->
+								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
+								    </div>
+
+								</div><!--item-->               			 
+	            			</div><!--feature_news_item-->
+						</div>
+						
+						<div class="col-md-6">
+							<div class="feature_news_item">
+	                			<div class="item active">
+									<div class="item_wrapper">
+										<div class="item_img">
+											<img class="img-responsive" src="img/img_feature2.jpg" alt="Chania">
+										</div> <!--item_img-->
+										<div class="item_title_date">
+											<div class="news_item_title">
+												<h2><a href="single">David villa change his team last year.</a></h2>
+											</div>
+                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+                                        </div><!--item_title_date-->
+									</div> <!--item_wrapper-->
+								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
+								    </div>
+
+								</div><!--item-->               			 
+	            			</div><!--feature_news_item-->
+						</div><!--col-xs-6-->
+					</div><!--row-->
+	    		</div><!--feature_news_static-->
+	    	</div><!--col-md-6-->
+	    </div><!--row-->
+	</div><!--container-->   	
+</section><!--feature_news_section-->
+
+    <!-- Feature Category Section & sidebar -->
+    <section id="feature_category_section" class="feature_category_section section_wrapper">
+	<div class="container">   
+		<div class="row">
+		   	<div class="col-md-9">
+		   		<div class="category_layout">
+			   		<div class="item_caregory red"><h2><a href="category">Football</a></h2></div>
+						<div class="row">
+				   			<div class="col-md-7">
+								<div class="item feature_news_item">
+									<div class="item_wrapper">
+										<div class="item_img">
+											<img class="img-responsive" src="img/img_feature_news.jpg" alt="Chania">
+										</div><!--item_img--> 
+										<div class="item_title_date">
+											<div class="news_item_title">
+												<h2><a href="#">22Leo Messi is boss of the bosses of the football world.</a></h2>
+											</div><!--news_item_title-->
+                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+										</div><!--item_title_date-->
+									</div><!--item_wrapper-->	
+								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+								    </div><!--item_content-->
+
+								</div><!--feature_news_item-->
+				   			</div><!--col-md-7-->
+				   			
+				   			<div class="col-md-5">
+								<div class="media_wrapper">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
+										</div><!--media-left-->
+										<div class="media-body">
+											<h3 class="media-heading"><a href="#">Machester United start the player
+											</a></h3>
+
+											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+										</div><!--media-body-->
+									</div><!--media-->
+
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img class="media-object" src="img/img-list2.jpg" alt="Generic placeholder image"></a>
+										</div><!--media-left-->
+										<div class="media-body">
+											<h3 class="media-heading"><a href="#">Machester United start the player
+											</a></h3>
+
+											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+										</div><!--media-body-->
+									</div><!--media-->
+
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
+										</div><!--media-left-->
+										<div class="media-body">
+											<h3 class="media-heading"><a href="#">Machester United start the player
+											</a></h3>
+
+											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+										</div><!--media-body-->
+									</div><!--media-->
+
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
+										</div><!--media-left-->
+										<div class="media-body">
+											<h3 class="media-heading"><a href="#">Machester United start the player
+											</a></h3>
+
+											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+										</div><!--media-body-->
+									</div><!--media-->
+								</div><!--media_wrapper-->
+								 
+				   			</div><!--col-md-5-->
+				   		</div><!--row-->
+			   		</div><!--category_layout-->
+
+		   		<div class="category_layout">
+		   			<div class="item_caregory blue"><h2><a href="#">Hockey</a></h2></div>
+					<div class="row">
+			   			<div class="col-md-7">
+							<div class="item active feature_news_item">
+								<div class="item_wrapper">
+									<div class="item_img">
+										<img class="img-responsive" src="img/img-hockey.jpg" alt="Chania">
+									</div><!--item_img-->  
+									<div class="item_title_date">
+										<div class="news_item_title">
+											<h2><a href="#">Argentia ahead two step playing hockey tournament</a></h2>
+										</div><!--news_item_title-->
+                                        <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+									</div><!--item_title_date-->
+								</div><!--item_wrapper-->	
+							    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+							    </div>
+
+							</div><!--feature_news_item-->
+			   			</div><!--col-md-7-->
+			   			
+			   			<div class="col-md-5">
+							<div class="media_wrapper">
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list5.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list6.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list7.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+							</div><!--media_wrapper-->
+			   			</div><!--col-md-5-->
+			   		</div><!--row-->
+		   		</div><!--category_layout-->
+
+		   		<div class="category_layout">
+		   			<div class="item_caregory teal"><h2><a href="#">Tennis</a></h2></div>
+					<div class="row">
+			   			<div class="col-md-7">
+							<div class="item active feature_news_item">
+								<div class="item_wrapper">
+									<div class="item_img">
+										<img class="img-responsive" src="img/img_feature_news3.jpg" alt="Chania">
+									</div><!--item_img-->  
+									<div class="item_title_date">
+										<div class="news_item_title">
+											<h2><a href="#">Leo Messi is boss of the bosses of the football world.</a></h3>
+										</div><!--news_item_title-->
+                                        <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+									</div><!--item_title_date-->
+								</div><!--item_wrapper-->	
+							    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+							    </div>
+
+							</div><!--feature_news_item-->
+			   			</div><!--col-md-7-->
+			   			
+			   			<div class="col-md-5">
+							<div class="media_wrapper">
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list7.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list8.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list9.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+
+								<div class="media">
+									<div class="media-left">
+										<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
+									</div><!--media-left-->
+									<div class="media-body">
+										<h3 class="media-heading"><a href="#">Machester United start the player
+										</a></h3>
+
+										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
+
+									</div><!--media-body-->
+								</div><!--media-->
+							</div><!--media_wrapper-->
+			   			</div><!--col-md-5-->
+			   		</div><!--row-->
+		   		</div><!--category_layout-->
+		   		
+		   		<div id="more_news_item" class="more_news_item">
+					<div class="more_news_heading"><h2><a href="#">More News</a></h2></div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="feature_news_item">
+	                			<div class="item">
+									<div class="item_wrapper">
+										<div class="item_img">
+											<img class="img-responsive" src="img/img-news.jpg" alt="Chania">
+										</div><!--item_img--> 
+										<div class="item_title_date">
+											<div class="news_item_title">
+												<h3><a href="#">Track Roboto the Real Tracker.</a></h3>
+											</div><!--news_item_title-->
+                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+										</div><!--item_title_date-->
+									</div><!--item_wrapper-->
+								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
+								    </div><!--item_content-->
+
+								</div><!--item-->               			 
+	            			</div><!--feature_news_item-->
+						</div><!--col-xs-4-->
+							
+						<div class="col-md-4">
+							<div class="feature_news_item">
+	                			<div class="item active">
+									<div class="item_wrapper">
+										<div class="item_img">
+											<img class="img-responsive" src="img/img-news1.jpg" alt="Chania">
+										</div><!--item_img--> 
+										<div class="item_title_date">
+											<div class="news_item_title">
+												<h3><a href="#">Track Roboto the Real Tracker.</a></h3>
+											</div><!--news_item_title-->
+                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+										</div><!--item_title_date-->
+									</div><!--item_wrapper-->
+								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
+								    </div><!--item_content-->
+
+								</div><!--item-->               			 
+	            			</div><!--feature_news_item-->
+						</div><!--col-xs-4-->
+
+						<div class="col-md-4">
+							<div class="feature_news_item">
+	                			<div class="item active">
+									<div class="item_wrapper">
+										<div class="item_img">
+											<img class="img-responsive" src="img/img-news2.jpg" alt="Chania">
+										</div><!--item_img--> 
+										<div class="item_title_date">
+											<div class="news_item_title">
+												<h3><a href="#">Track Roboto the Real Tracker.</a></h3>
+											</div><!--news_item_title-->
+                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
+										</div><!--item_title_date-->
+									</div><!--item_wrapper-->
+								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
+								    </div><!--item_content-->
+
+								</div><!--item-->               			 
+	            			</div><!--feature_news_item-->
+						</div><!--col-xs-4-->
+					</div><!--row-->	
+				</div><!--more_news_item-->	
+		   	</div><!--col-md-9-->
+
+		   	<div class="col-md-3">
+
+				<div class="tab sitebar">
+					<ul class="nav nav-tabs">
+						<li class="active"><a  href="#1" data-toggle="tab">Latest</a></li>
+						<li><a href="#2" data-toggle="tab">Populer</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="1">
+							<div class="media">
+								<div class="media-left">
+									<a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
+								</div><!--media-left-->
+								<div class="media-body">
+									<h4 class="media-heading"><a href="#">Spain going to made class football</a></h4>
+									<span class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-full"></i>
+									</span>
+								</div><!--media-body-->
+							</div><!--media-->
+
+							<div class="media">
+								<div class="media-left">
+									<a href="#"><img class="media-object" src="img/img-list5.jpg" alt="Generic placeholder image"></a>
+								</div><!--media-left-->
+								<div class="media-body">
+									<h4 class="media-heading"><a href="#">Spain going to made class football</a></h4>
+									<span class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-full"></i>
+									</span>
+								</div><!--media-body-->
+							</div><!--media-->
+
+							<div class="media">
+								<div class="media-left">
+									<a href="#"><img class="media-object" src="img/img-list2.jpg" alt="Generic placeholder image"></a>
+								</div><!--media-left-->
+								<div class="media-body">
+									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+									<span class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-full"></i>
+									</span>
+								</div><!--media-body-->
+							</div><!--media-->
+
+							<div class="media">
+								<div class="media-left">
+									<a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
+								</div><!--media-left-->
+								<div class="media-body">
+									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+									<span class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-full"></i>
+									</span>
+								</div><!--media-body-->
+							</div><!--media-->
+						</div><!--tab-pane-->
+
+						<div class="tab-pane" id="2">
+							<div class="media">
+								<div class="media-left">
+									<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
+								</div><!--media-left-->
+								<div class="media-body">
+									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+									<span class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-full"></i>
+									</span>
+								</div><!--media-body-->
+							</div><!--media-->
+
+							<div class="media">
+								<div class="media-left">
+									<a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
+								</div><!--media-left-->
+								<div class="media-body">
+									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+									<span class="rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-full"></i>
+									</span>
+								</div><!--media-body-->
+							</div><!--media-->
+						</div><!--tab-pane-->
+					</div><!--tab-content-->
+				</div><!--tab-->
+
+				<div class="ad">
+					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
+					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
+					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
+					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
+				</div><!--ad-->
+				
+				<div class="ad">
+					<img class="img-responsive" src="img/img-ad.jpg" alt="img" />
+				</div>
+
+				<div class="ad">
+					<img class="img-responsive" src="img/img-ad2.jpg" alt="img" />
+				</div>
+
+                <div class="most_comment">
+                    <div class="sidebar_title">
+                        <h2>Most Commented</h2>
                     </div>
-                </div>
-            </div>
-        </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
+                        </div><!--media-left-->
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                             <div class="comment_box">
+                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                                 <div class="comments"><a href="#">9 Comments</a></div>
+                             </div><!--comment_box-->
+                        </div><!--media-body-->
+                    </div><!--media-->
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object" src="img/img-list2.jpg" alt="Generic placeholder image"></a>
+                        </div><!--media-left-->
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                            <div class="comment_box">
+                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                                <div class="comments"><a href="#">20 Comments</a></div>
+                            </div><!--comment_box-->
+                        </div><!--media-body-->
+                    </div><!--media-->
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
+                        </div><!--media-left-->
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                            <div class="comment_box">
+                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                                <div class="comments"><a href="#">23 Comments</a></div>
+                            </div><!--comment_box-->
+                        </div><!--media-body-->
+                    </div><!--media-->
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
+                        </div><!--media-left-->
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
+                            <div class="comment_box">
+                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
+                                <div class="comments"><a href="#">44 Comments</a></div>
+                            </div><!--comment_box-->
+                        </div><!--media-body-->
+                    </div><!--media-->
+                </div><!--most_comment-->
+			</div>
+		</div>	   	
+</section><!--feature_category_section-->
 
-        <!-- Navbar Area -->
-        <div class="newspaper-main-menu" id="stickyMenu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="newspaperNav">
+    <!-- Feature Video Item -->
+    <section id="feature_video_item" class="feature_video_item section_wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="feature_video_wrapper">
+					<div class="feature_video_title"><h2>Featured Videos</h2></div>
 
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="/"><img src="img/core-img/logo.png" alt=""></a>
-                        </div>
+					<div id="feature_video_slider" class="owl-carousel">
+						<div class="item">
+							<div class="video_thumb"><img   src="img/video.jpg" alt="Owl Image"></div>
+							<div class="video_info">
+								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
+								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
+							</div><!--video_info-->
+						</div>
+						<div class="item">
+							<div class="video_thumb"><img   src="img/video2.jpg" alt="Owl Image"></div>
+							<div class="video_info">
+								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
+								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
+							</div><!--video_info-->
+						</div>
+						<div class="item">
+							<div class="video_thumb"><img   src="img/video3.jpg" alt="Owl Image"></div>
+							<div class="video_info">
+								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
+								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
+							</div><!--video_info-->
+						</div>
+						<div class="item">
+							<div class="video_thumb"><img   src="img/video2.jpg" alt="Owl Image"></div>
+							<div class="video_info">
+								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
+								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
+							</div><!--video_info-->
+						</div>
+						<div class="item">
+							<div class="video_thumb"><img   src="img/video.jpg" alt="Owl Image"></div>
+							<div class="video_info">
+								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
+								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
+							</div><!--video_info-->
+						</div>
+						<div class="item">
+							<div class="video_thumb"><img   src="img/video3.jpg" alt="Owl Image"></div>
+							<div class="video_info">
+								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
+								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
+							</div><!--video_info-->
+						</div>
+		            </div><!--feature_video_slider-->
 
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
 
-                        <!-- Menu -->
-                        <div class="classy-menu">
+		        </div><!--col-xs-12-->
+	        </div><!--row-->
+        </div><!--feature_video_wrapper-->
+	</div><!--container-->
+</section>
 
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
+    <!-- Footer Section -->
+    <footer class="footer_section section_wrapper section_wrapper" >
+	<div class="footer_top_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="text_widget footer_widget">
+					<div class="footer_widget_title"><h2>About Sports Mag</h2></div>
+		         
+		         	<div class="footer_widget_content">Collaborativelyadministrate empowered marketsplug-and-play networks. Dynamic procrastinate after.marketsplug-and-play networks. Dynamic procrastinate users after. Dynamic procrastinateafter. marketsplug-and-play networks. Dynamic procrastinate users after...
+					</div>
+					</div><!--text_widget-->
+				</div><!--col-xs-3-->
 
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li class="active"><a href="/">Home</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="/">Home</a></li>
-                                            <li><a href="catagories-post">Catagories</a></li>
-                                            <li><a href="single-post">Single Articles</a></li>
-                                            <li><a href="about">About Us</a></li>
-                                            <li><a href="contact">Contact</a></li>
-                                            <li><a href="#">Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="/">Home</a></li>
-                                                    <li><a href="catagories-post">Catagories</a></li>
-                                                    <li><a href="single-post">Single Articles</a></li>
-                                                    <li><a href="about">About Us</a></li>
-                                                    <li><a href="contact">Contact</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Mega Menu</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li class="title">Catagories</li>
-                                                <li><a href="/">Home</a></li>
-                                                <li><a href="catagories-post">Catagories</a></li>
-                                                <li><a href="single-post">Single Articles</a></li>
-                                                <li><a href="about">About Us</a></li>
-                                                <li><a href="contact">Contact</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li class="title">Catagories</li>
-                                                <li><a href="/">Home</a></li>
-                                                <li><a href="catagories-post">Catagories</a></li>
-                                                <li><a href="single-post">Single Articles</a></li>
-                                                <li><a href="about">About Us</a></li>
-                                                <li><a href="contact">Contact</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li class="title">Catagories</li>
-                                                <li><a href="/">Home</a></li>
-                                                <li><a href="catagories-post">Catagories</a></li>
-                                                <li><a href="single-post">Single Articles</a></li>
-                                                <li><a href="about">About Us</a></li>
-                                                <li><a href="contact">Contact</a></li>
-                                            </ul>
-                                            <div class="single-mega cn-col-4">
-                                                <!-- Single Featured Post -->
-                                                <div class="single-blog-post small-featured-post d-flex">
-                                                    <div class="post-thumb">
-                                                        <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="post-data">
-                                                        <a href="#" class="post-catagory">Travel</a>
-                                                        <div class="post-meta">
-                                                            <a href="#" class="post-title">
-                                                                <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
-                                                            </a>
-                                                            <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+				<div class="col-md-6">
+					<div class="footer_widget">
+                        <div class="footer_widget_title"><h2>Discover</h2></div>
+					    <div class="footer_menu_item ">
+						<div class="row">
+							<div class="col-sm-4"> 
+								<ul class="nav navbar-nav ">
+									<li><a href="../navbar/">Baseball</a></li>
+									<li><a href="../navbar-static-top/">Football</a></li>
+									<li><a href="./">Cricket</a></li>
+									<li><a href="../navbar/">Rugbi</a></li>
+									<li><a href="../navbar/">Hockey</a></li>
+									<li><a href="../navbar-static-top/">Boxing</a></li>
+									<li><a href="./">Golf</a></li>
+									<li><a href="../navbar/">Tennis</a></li>
+									<li><a href="../navbar/">Horse Racing</a></li>
+								</ul>
+						    </div><!--col-sm-4-->
+					        <div class="col-sm-4 "> 					  						
+								<ul class="nav navbar-nav  ">
+									<li><a href="../navbar/">Track & Field</a></li>
+									<li><a href="../navbar-static-top/">MembershipContact us</a></li>
+									<li><a href="./">Newsletter Alerts</a></li>
+									<li><a href="../navbar/">Podcast</a></li>
+									<li><a href="../navbar/">Blog</a></li>
+									<li><a href="../navbar-static-top/">SMS Subscription</a></li>
+									<li><a href="./">Advertisement Policy</a></li>
+									<li><a href="../navbar/">Jobs</a></li>
+								</ul>
+					        </div><!--col-sm-4-->
+					        <div class="col-sm-4"> 
+								<ul class="nav navbar-nav ">
+									<li><a href="../navbar/">Report technical issue</a></li>
+									<li><a href="../navbar-static-top/">Complaints & Corrections</a></li>
+									<li><a href="./">Terms & Conditions</a></li>
+									<li><a href="../navbar-static-top/">Privacy Policy</a></li>
+									<li><a href="./">Cookie Policy</a></li>
+									<li><a href="../navbar/">Securedrop</a></li>
+									<li><a href="../navbar/">Archives</a></li>
+								</ul>
+					        </div><!--col-sm-4-->
+				      	</div><!--row-->
+			      	</div><!--footer_menu_item-->
+                    </div><!--footer_widget-->
+				</div><!--col-xs-6-->
 
-                                                <!-- Single Featured Post -->
-                                                <div class="single-blog-post small-featured-post d-flex">
-                                                    <div class="post-thumb">
-                                                        <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="post-data">
-                                                        <a href="#" class="post-catagory">Politics</a>
-                                                        <div class="post-meta">
-                                                            <a href="#" class="post-title">
-                                                                <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
-                                                            </a>
-                                                            <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">Politics</a></li>
-                                    <li><a href="#">Breaking News</a></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Health</a></li>
-                                    <li><a href="#">Travel</a></li>
-                                    <li><a href="#">Sports</a></li>
-                                    <li><a href="contact">Contact</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
+				<div class="col-md-3">
+ 					<div class="text_widget footer_widget">
+						<div class="footer_widget_title"><h2>Editor’s Message</h2></div>
+						<img src="img/img-author.jpg" />
+						<div class="footer_widget_content">Collaborativelyadministrate empowered marketsplug-and-play networks. Dynamic procrastinate after.marketsplug-and-play networks. Dynamic procrastinate users after. Dynamic procrastinateafter. marketsplug-and-play networks. Dynamic procrastinate users after...</div>
+					</div>
+				</div><!--col-xs-3-->
+			</div><!--row-->
+		</div><!--container-->
+	</div><!--footer_top_section-->
+	<a href="#" class="crunchify-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+	
+	<div class="copyright-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+							Editor: Joshep guinter Grunt
+					</div><!--col-xs-3-->
+					<div class="col-md-6">
+						<div class="copyright">
+						© Copyright 2015 - Sports News Mag.com. Design by: <a href="https://uiCookies.com" title="uiCookies">uiCookies</a>
+						</div>
+					</div><!--col-xs-6-->
+					<div class="col-md-3">
+						Sports News Magazine
+					</div><!--col-xs-3-->
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--copyright-section-->
+</footer>
 
-    <!-- ##### Hero Area Start ##### -->
-    <div class="hero-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-8">
-                    <!-- Breaking News Widget -->
-                    <div class="breaking-news-area d-flex align-items-center">
-                        <div class="news-title">
-                            <p>Breaking News</p>
-                        </div>
-                        <div id="breakingNewsTicker" class="ticker">
-                            <ul>
-                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                                <li><a href="#">Welcome to Colorlib Family.</a></li>
-                                <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
-                            </ul>
-                        </div>
-                    </div>
+</div> <!--main-wrapper-->
+  
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/jquery.min.js"></script>
 
-                    <!-- Breaking News Widget -->
-                    <div class="breaking-news-area d-flex align-items-center mt-15">
-                        <div class="news-title title2">
-                            <p>International</p>
-                        </div>
-                        <div id="internationalTicker" class="ticker">
-                            <ul>
-                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                                <li><a href="#">Welcome to Colorlib Family.</a></li>
-                                <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+<!-- Owl carousel -->
+<script src="js/owl.carousel.js"></script>
 
-                <!-- Hero Add -->
-                <div class="col-12 col-lg-4">
-                    <div class="hero-add">
-                        <a href="#"><img src="img/bg-img/hero-add.gif" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Hero Area End ##### -->
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
 
-    <!-- ##### Featured Post Area Start ##### -->
-    <div class="featured-post-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-8">
-                    <div class="row">
+<!-- Theme Script File-->
+<script src="js/script.js"></script> 
 
-                        <!-- Single Featured Post -->
-                        <div class="col-12 col-lg-7">
-                            <div class="single-blog-post featured-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/16.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <a href="#" class="post-title">
-                                        <h6>Financial news: A new company is born today at the stock market</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <p class="post-author">By <a href="#">Christinne Williams</a></p>
-                                        <p class="post-excerp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem. </p>
-                                        <!-- Post Like & Post Comment -->
-                                        <div class="d-flex align-items-center">
-                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
-                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<!-- Off Canvas Menu -->
+<script src="js/offcanvas.min.js"></script> 
 
-                        <div class="col-12 col-lg-5">
-                            <!-- Single Featured Post -->
-                            <div class="single-blog-post featured-post-2">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/17.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <div class="post-meta">
-                                        <a href="#" class="post-title">
-                                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac...</h6>
-                                        </a>
-                                        <!-- Post Like & Post Comment -->
-                                        <div class="d-flex align-items-center">
-                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
-                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <!-- Single Featured Post -->
-                            <div class="single-blog-post featured-post-2">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/18.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <div class="post-meta">
-                                        <a href="#" class="post-title">
-                                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac...</h6>
-                                        </a>
-                                        <!-- Post Like & Post Comment -->
-                                        <div class="d-flex align-items-center">
-                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
-                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <!-- Single Featured Post -->
-                    <div class="single-blog-post small-featured-post d-flex">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/19.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-catagory">Finance</a>
-                            <div class="post-meta">
-                                <a href="#" class="post-title">
-                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
-                                </a>
-                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Featured Post -->
-                    <div class="single-blog-post small-featured-post d-flex">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/20.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-catagory">Politics</a>
-                            <div class="post-meta">
-                                <a href="#" class="post-title">
-                                    <h6>Sed a elit euismod augue semper congue sit amet ac sapien.</h6>
-                                </a>
-                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Featured Post -->
-                    <div class="single-blog-post small-featured-post d-flex">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/21.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-catagory">Health</a>
-                            <div class="post-meta">
-                                <a href="#" class="post-title">
-                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
-                                </a>
-                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Featured Post -->
-                    <div class="single-blog-post small-featured-post d-flex">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/22.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-catagory">Finance</a>
-                            <div class="post-meta">
-                                <a href="#" class="post-title">
-                                    <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
-                                </a>
-                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Featured Post -->
-                    <div class="single-blog-post small-featured-post d-flex">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-catagory">Travel</a>
-                            <div class="post-meta">
-                                <a href="#" class="post-title">
-                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
-                                </a>
-                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Featured Post -->
-                    <div class="single-blog-post small-featured-post d-flex">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-catagory">Politics</a>
-                            <div class="post-meta">
-                                <a href="#" class="post-title">
-                                    <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
-                                </a>
-                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Featured Post Area End ##### -->
-
-    <!-- ##### Popular News Area Start ##### -->
-    <div class="popular-news-area section-padding-80-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8">
-                    <div class="section-heading">
-                        <h6>Popular News</h6>
-                    </div>
-
-                    <div class="row">
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-md-6">
-                            <div class="single-blog-post style-3">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/12.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <a href="#" class="post-title">
-                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                    </a>
-                                    <div class="post-meta d-flex align-items-center">
-                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
-                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-md-6">
-                            <div class="single-blog-post style-3">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/13.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <a href="#" class="post-title">
-                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                    </a>
-                                    <div class="post-meta d-flex align-items-center">
-                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
-                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-md-6">
-                            <div class="single-blog-post style-3">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/14.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <a href="#" class="post-title">
-                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                    </a>
-                                    <div class="post-meta d-flex align-items-center">
-                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
-                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-md-6">
-                            <div class="single-blog-post style-3">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/15.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <a href="#" class="post-title">
-                                        <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                    </a>
-                                    <div class="post-meta d-flex align-items-center">
-                                        <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
-                                        <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-4">
-                    <div class="section-heading">
-                        <h6>Info</h6>
-                    </div>
-                    <!-- Popular News Widget -->
-                    <div class="popular-news-widget mb-30">
-                        <h3>4 Most Popular News</h3>
-
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>1.</span> Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.</h6>
-                            </a>
-                            <p>April 14, 2018</p>
-                        </div>
-
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>2.</span> Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.</h6>
-                            </a>
-                            <p>April 14, 2018</p>
-                        </div>
-
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>3.</span> Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.</h6>
-                            </a>
-                            <p>April 14, 2018</p>
-                        </div>
-
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>4.</span> Eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                            </a>
-                            <p>April 14, 2018</p>
-                        </div>
-                    </div>
-
-                    <!-- Newsletter Widget -->
-                    <div class="newsletter-widget">
-                        <h4>Newsletter</h4>
-                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        <form action="#" method="post">
-                            <input type="text" name="text" placeholder="Name">
-                            <input type="email" name="email" placeholder="Email">
-                            <button type="submit" class="btn w-100">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Popular News Area End ##### -->
-
-    <!-- ##### Video Post Area Start ##### -->
-    <div class="video-post-area bg-img bg-overlay" style="background-image: url(img/bg-img/bg1.jpg);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <!-- Single Video Post -->
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single-video-post">
-                        <img src="img/bg-img/video1.jpg" alt="">
-                        <!-- Video Button -->
-                        <div class="videobtn">
-                            <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Video Post -->
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single-video-post">
-                        <img src="img/bg-img/video2.jpg" alt="">
-                        <!-- Video Button -->
-                        <div class="videobtn">
-                            <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Video Post -->
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single-video-post">
-                        <img src="img/bg-img/video3.jpg" alt="">
-                        <!-- Video Button -->
-                        <div class="videobtn">
-                            <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Video Post Area End ##### -->
-
-    <!-- ##### Editorial Post Area Start ##### -->
-    <div class="editors-pick-post-area section-padding-80-50">
-        <div class="container">
-            <div class="row">
-                <!-- Editors Pick -->
-                <div class="col-12 col-md-7 col-lg-9">
-                    <div class="section-heading">
-                        <h6>Editor’s Pick</h6>
-                    </div>
-
-                    <div class="row">
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-lg-4">
-                            <div class="single-blog-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/1.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-title">
-                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-lg-4">
-                            <div class="single-blog-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/2.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-title">
-                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-lg-4">
-                            <div class="single-blog-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/3.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-title">
-                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-lg-4">
-                            <div class="single-blog-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/4.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-title">
-                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-lg-4">
-                            <div class="single-blog-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-title">
-                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Post -->
-                        <div class="col-12 col-lg-4">
-                            <div class="single-blog-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/6.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-title">
-                                        <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- World News -->
-                <div class="col-12 col-md-5 col-lg-3">
-                    <div class="section-heading">
-                        <h6>World News</h6>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="single-blog-post style-2">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/7.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-title">
-                                <h6>Orci varius natoque penatibus et magnis</h6>
-                            </a>
-                            <div class="post-meta">
-                                <div class="post-date"><a href="#">February 11, 2018</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="single-blog-post style-2">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/8.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-title">
-                                <h6>Orci varius natoque penatibus et magnis</h6>
-                            </a>
-                            <div class="post-meta">
-                                <div class="post-date"><a href="#">February 11, 2018</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="single-blog-post style-2">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/9.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-title">
-                                <h6>Orci varius natoque penatibus et magnis</h6>
-                            </a>
-                            <div class="post-meta">
-                                <div class="post-date"><a href="#">February 11, 2018</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="single-blog-post style-2">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/10.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-title">
-                                <h6>Orci varius natoque penatibus et magnis</h6>
-                            </a>
-                            <div class="post-meta">
-                                <div class="post-date"><a href="#">February 11, 2018</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="single-blog-post style-2">
-                        <div class="post-thumb">
-                            <a href="#"><img src="img/bg-img/11.jpg" alt=""></a>
-                        </div>
-                        <div class="post-data">
-                            <a href="#" class="post-title">
-                                <h6>Orci varius natoque penatibus et magnis</h6>
-                            </a>
-                            <div class="post-meta">
-                                <div class="post-date"><a href="#">February 11, 2018</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Editorial Post Area End ##### -->
-
-    <!-- ##### Footer Add Area Start ##### -->
-    <div class="footer-add-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-add">
-                        <a href="#"><img src="img/bg-img/footer-add.gif" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Footer Add Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-
-        <!-- Main Footer Area -->
-        <div class="main-footer-area">
-            <div class="container">
-                <div class="row">
-
-                    <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="footer-widget-area mt-80">
-                            <!-- Footer Logo -->
-                            <div class="footer-logo">
-                                <a href="/"><img src="img/core-img/logo.png" alt=""></a>
-                            </div>
-                            <!-- List -->
-                            <ul class="list">
-                                <li><a href="mailto:contact@youremail.com">contact@youremail.com</a></li>
-                                <li><a href="tel:+4352782883884">+43 5278 2883 884</a></li>
-                                <li><a href="http://yoursitename.com">www.yoursitename.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-2">
-                        <div class="footer-widget-area mt-80">
-                            <!-- Title -->
-                            <h4 class="widget-title">Politics</h4>
-                            <!-- List -->
-                            <ul class="list">
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Markets</a></li>
-                                <li><a href="#">Tech</a></li>
-                                <li><a href="#">Luxury</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-4 col-lg-2">
-                        <div class="footer-widget-area mt-80">
-                            <!-- Title -->
-                            <h4 class="widget-title">Featured</h4>
-                            <!-- List -->
-                            <ul class="list">
-                                <li><a href="#">Football</a></li>
-                                <li><a href="#">Golf</a></li>
-                                <li><a href="#">Tennis</a></li>
-                                <li><a href="#">Motorsport</a></li>
-                                <li><a href="#">Horseracing</a></li>
-                                <li><a href="#">Equestrian</a></li>
-                                <li><a href="#">Sailing</a></li>
-                                <li><a href="#">Skiing</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-4 col-lg-2">
-                        <div class="footer-widget-area mt-80">
-                            <!-- Title -->
-                            <h4 class="widget-title">FAQ</h4>
-                            <!-- List -->
-                            <ul class="list">
-                                <li><a href="#">Aviation</a></li>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Traveller</a></li>
-                                <li><a href="#">Destinations</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Food/Drink</a></li>
-                                <li><a href="#">Hotels</a></li>
-                                <li><a href="#">Partner Hotels</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Footer Widget Area -->
-                    <div class="col-12 col-sm-4 col-lg-2">
-                        <div class="footer-widget-area mt-80">
-                            <!-- Title -->
-                            <h4 class="widget-title">+More</h4>
-                            <!-- List -->
-                            <ul class="list">
-                                <li><a href="#">Fashion</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Architecture</a></li>
-                                <li><a href="#">Arts</a></li>
-                                <li><a href="#">Autos</a></li>
-                                <li><a href="#">Luxury</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Footer Area -->
-        <div class="bottom-footer-area">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12">
-                        <!-- Copywrite -->
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area Start ##### -->
-
-    <!-- ##### All Javascript Files ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
+   
 </body>
-
-<>
+</html>

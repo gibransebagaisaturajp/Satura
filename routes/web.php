@@ -28,19 +28,19 @@ Route::get('admin', function () {
     return view('backend');
 });
 
-Route::get('/about', function () {
-    return view('about');
+// Route::get('/about', function () {
+//     return view('about');
+// });
+Route::get('/single', function () {
+    return view('single');
 });
-Route::get('/single-post', function () {
-    return view('single-post');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
 
-Route::get('/catagories-post', function () {
-    return view('catagories-post');
+Route::get('/category', function () {
+    return view('category');
 });
