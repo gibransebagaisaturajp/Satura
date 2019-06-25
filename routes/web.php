@@ -28,19 +28,20 @@ Route::get('admin', function () {
     return view('backend');
 });
 
-// Route::get('/about', function () {
-//     return view('about');
-// });
-Route::get('/single', function () {
-    return view('single');
+Route::get('/about', function () {
+    return view('about');
 });
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
 
-Route::get('/category', function () {
-    return view('category');
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/game-review', function () {
+    return view('game-review');
+});
+
+Route::get('/post', function () {
+    return view('post');
+});
+Route::get('single-post', function () {
+    return view('single-post');
 });

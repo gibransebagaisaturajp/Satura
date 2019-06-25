@@ -1,917 +1,944 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sports</title>
-    <!-- Goole Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,500" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Title -->
+    <title>Egames - Gaming Magazine Template</title>
 
-    <!-- Font Awesome -->
-    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	
-    <!-- Owl carousel -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-	 <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
 
-    <!-- Off Canvas Menu -->
-    <link href="css/offcanvas.min.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-    <!--Theme CSS -->
-    <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
 <body>
-<div id="main-wrapper">
-
-    <!-- Header Section -->
-	<header>
-	    <div class="container">
-	     	<div class="top_ber">
-				<div class="row">
-		    		<div class="col-md-6">
-						<div class="top_ber_left">
-							20 August. Thursday 2015. 2:00 PM.
-						</div><!--top_ber_left-->
-		    		</div><!--col-md-6-->
-		    		<div class="col-md-6">
-		    			<div class="top_ber_right">
-		    				<div class="top-menu">
-		    					<ul class="nav navbar-nav">    
-			                        <li><a href="#">Login</a></li>
-			                        <li><a href="#">Register</a></li>
-	                    		</ul>
-		    				</div><!--top-menu-->
-		    			</div><!--top_ber_left-->
-		    		</div><!--col-md-6-->
-		    	</div><!--row-->
-	     	</div><!--top_ber-->
-	     	
-	     	<div class="header-section">
-				<div class="row">
-		    	 	<div class="col-md-3">
-						<div class="logo">
-						<a  href="index.html"><img class="img-responsive" src="img/logo.png" alt=""></a>
-						</div><!--logo-->
-		    	 	</div><!--col-md-3-->
-		    	 	
-		    	 	<div class="col-md-6">
-						<div class="header_ad_banner">
-						<a  href="#"><img class="img-responsive" src="img/img_ad.jpg" alt=""></a>
-						</div>
-		    	 	</div><!--col-md-6-->
-		    	 	
-		    	 	<div class="col-md-3">
-						<div class="social_icon1">
-								<a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
-								<!--Twitter-->
-								<a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a>
-								<!--Google +-->
-								<a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a>
-								<!--Linkedin-->
-								<a class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a> 
-								<!--Pinterest-->
-								<a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a>
-						</div> <!--social_icon1-->
-		    	 	</div><!--col-md-3-->
-		    	</div> <!--row-->	
-	     	</div><!--header-section-->    	      
-	    </div><!-- /.container -->   
-
-		<nav class="navbar main-menu navbar-inverse navbar-static-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				</div>
-				<div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
-				<ul class="nav navbar-nav">
-					<li class="hidden"><a href="#page-top"></a></li>
-					<li><a class="page-scroll" href="category">Baseball</a></li>
-					<li><a class="page-scroll" href="category">Football</a></li>
-					<li><a class="page-scroll" href="category">Hockey</a></li>
-					<li><a class="page-scroll" href="category">Basketball</a></li>
-					<li><a class="page-scroll" href="category">Boxing</a></li>
-					<li><a class="page-scroll" href="category">Golf</a></li>
-					<li><a class="page-scroll" href="category">Tennis</a></li>
-					<li><a class="page-scroll" href="category">Horse racing</a></li>
-					<li><a class="page-scroll" href="category">Track & Field</a></li>
-
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-						</ul>
-					</li>
-				</ul>
-				<div class="pull-right">
-					<form class="navbar-form" role="search">
-						<div class="input-group">
-							<input class="form-control" placeholder="Search" name="q" type="text">
-							<div class="input-group-btn">
-								<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-							</div>
-						</div>
-					</form>
-				</div>
-				</div>
-			</div>
-		</nav> 
-		<!-- .navbar -->
-	</header>
-
-    <!-- Feature Carousel Section -->
-    <section id="feature_news_section" class="feature_news_section section_wrapper">
-	<div class="container">   
-	    <div class="row">
-	    	<div class="col-md-6">
-	    		<div class="feature_news_carousel">
-					<div id="featured-news-carousal" class="carousel slide" data-ride="carousel">
-					    <!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">					    
-							<div class="item active feature_news_item">
-								<div class="item_wrapper">
-									<div class="item_img">
-										<img class="img-responsive" src="img/img-carousel1.jpg" alt="Chania">
-									</div> <!--item_img-->
-									<div class="item_title_date">
-										<div class="news_item_title">
-											<h2><a href="single">Seamlessly embrace B2C catalysts for change vis-a-vis economically sound communities.</a></h2>
-										</div>
-										<div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-									</div> <!--item_title_date-->
-								</div>	<!--item_wrapper-->
-							    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</div>
-
-							</div><!--feature_news_item-->
-
-							<div class="item feature_news_item">
-								<div class="item_wrapper">
-									<div class="item_img">
-										<img class="img-responsive" src="img/img-carousel2.jpg" alt="Chania">
-									</div> <!--item_img--> 
-									<div class="item_title_date">
-										<div class="news_item_title">
-											<h2><a href="#">Manchester United want to Back Cristiano Ronaldo natus error sit.</a></h2>
-										</div>
-                                        <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-									</div> <!--item_title_date-->
-								</div> <!--item_wrapper-->	
-								
-								<div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-								</div>
-
-							</div><!--feature_news_item-->
-							 
-
-					  		<!-- Left and right controls -->
-							<div class="control-wrapper">
-								<a class="left carousel-control" href="#featured-news-carousal" role="button" data-slide="prev">
-									<i class="fa fa-chevron-left" aria-hidden="true"></i>
-								</a>
-								<a class="right carousel-control" href="#featured-news-carousal" role="button" data-slide="next">
-									<i class="fa fa-chevron-right" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div><!--carousel-inner-->
-	    			</div><!--carousel-->
-	    		</div><!--feature_news_carousel-->
-	    	</div><!--col-md-6-->
-	    	
-	    	<div class="col-md-6">
-	    		<div class="feature_news_static">
-		    		<div class="row">								 
-						<div class="col-md-6">
-							<div class="feature_news_item">
-	                			<div class="item active">
-									<div class="item_wrapper">
-										<div class="item_img">
-											<img class="img-responsive" src="img/img_feature.jpg" alt="Chania">
-										</div> <!--item_img-->
-										<div class="item_title_date">
-											<div class="news_item_title">
-												<h2><a href="single">Track Roboto the Real Tracker.</a></h2>
-											</div>
-                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-										</div><!--item_title_date-->
-									</div> <!--item_wrapper-->
-								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
-								    </div>
-
-								</div><!--item-->               			 
-	            			</div><!--feature_news_item-->
-						</div>
-						
-						<div class="col-md-6">
-							<div class="feature_news_item">
-	                			<div class="item active">
-									<div class="item_wrapper">
-										<div class="item_img">
-											<img class="img-responsive" src="img/img_feature2.jpg" alt="Chania">
-										</div> <!--item_img-->
-										<div class="item_title_date">
-											<div class="news_item_title">
-												<h2><a href="single">David villa change his team last year.</a></h2>
-											</div>
-                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-                                        </div><!--item_title_date-->
-									</div> <!--item_wrapper-->
-								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
-								    </div>
-
-								</div><!--item-->               			 
-	            			</div><!--feature_news_item-->
-						</div><!--col-xs-6-->
-					</div><!--row-->
-	    		</div><!--feature_news_static-->
-	    	</div><!--col-md-6-->
-	    </div><!--row-->
-	</div><!--container-->   	
-</section><!--feature_news_section-->
-
-    <!-- Feature Category Section & sidebar -->
-    <section id="feature_category_section" class="feature_category_section section_wrapper">
-	<div class="container">   
-		<div class="row">
-		   	<div class="col-md-9">
-		   		<div class="category_layout">
-			   		<div class="item_caregory red"><h2><a href="category">Football</a></h2></div>
-						<div class="row">
-				   			<div class="col-md-7">
-								<div class="item feature_news_item">
-									<div class="item_wrapper">
-										<div class="item_img">
-											<img class="img-responsive" src="img/img_feature_news.jpg" alt="Chania">
-										</div><!--item_img--> 
-										<div class="item_title_date">
-											<div class="news_item_title">
-												<h2><a href="#">22Leo Messi is boss of the bosses of the football world.</a></h2>
-											</div><!--news_item_title-->
-                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-										</div><!--item_title_date-->
-									</div><!--item_wrapper-->	
-								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-								    </div><!--item_content-->
-
-								</div><!--feature_news_item-->
-				   			</div><!--col-md-7-->
-				   			
-				   			<div class="col-md-5">
-								<div class="media_wrapper">
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
-										</div><!--media-left-->
-										<div class="media-body">
-											<h3 class="media-heading"><a href="#">Machester United start the player
-											</a></h3>
-
-											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-										</div><!--media-body-->
-									</div><!--media-->
-
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img class="media-object" src="img/img-list2.jpg" alt="Generic placeholder image"></a>
-										</div><!--media-left-->
-										<div class="media-body">
-											<h3 class="media-heading"><a href="#">Machester United start the player
-											</a></h3>
-
-											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-										</div><!--media-body-->
-									</div><!--media-->
-
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
-										</div><!--media-left-->
-										<div class="media-body">
-											<h3 class="media-heading"><a href="#">Machester United start the player
-											</a></h3>
-
-											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-										</div><!--media-body-->
-									</div><!--media-->
-
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
-										</div><!--media-left-->
-										<div class="media-body">
-											<h3 class="media-heading"><a href="#">Machester United start the player
-											</a></h3>
-
-											<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-										</div><!--media-body-->
-									</div><!--media-->
-								</div><!--media_wrapper-->
-								 
-				   			</div><!--col-md-5-->
-				   		</div><!--row-->
-			   		</div><!--category_layout-->
-
-		   		<div class="category_layout">
-		   			<div class="item_caregory blue"><h2><a href="#">Hockey</a></h2></div>
-					<div class="row">
-			   			<div class="col-md-7">
-							<div class="item active feature_news_item">
-								<div class="item_wrapper">
-									<div class="item_img">
-										<img class="img-responsive" src="img/img-hockey.jpg" alt="Chania">
-									</div><!--item_img-->  
-									<div class="item_title_date">
-										<div class="news_item_title">
-											<h2><a href="#">Argentia ahead two step playing hockey tournament</a></h2>
-										</div><!--news_item_title-->
-                                        <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-									</div><!--item_title_date-->
-								</div><!--item_wrapper-->	
-							    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-							    </div>
-
-							</div><!--feature_news_item-->
-			   			</div><!--col-md-7-->
-			   			
-			   			<div class="col-md-5">
-							<div class="media_wrapper">
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list5.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list6.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list7.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-							</div><!--media_wrapper-->
-			   			</div><!--col-md-5-->
-			   		</div><!--row-->
-		   		</div><!--category_layout-->
-
-		   		<div class="category_layout">
-		   			<div class="item_caregory teal"><h2><a href="#">Tennis</a></h2></div>
-					<div class="row">
-			   			<div class="col-md-7">
-							<div class="item active feature_news_item">
-								<div class="item_wrapper">
-									<div class="item_img">
-										<img class="img-responsive" src="img/img_feature_news3.jpg" alt="Chania">
-									</div><!--item_img-->  
-									<div class="item_title_date">
-										<div class="news_item_title">
-											<h2><a href="#">Leo Messi is boss of the bosses of the football world.</a></h3>
-										</div><!--news_item_title-->
-                                        <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-									</div><!--item_title_date-->
-								</div><!--item_wrapper-->	
-							    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-							    </div>
-
-							</div><!--feature_news_item-->
-			   			</div><!--col-md-7-->
-			   			
-			   			<div class="col-md-5">
-							<div class="media_wrapper">
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list7.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list8.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list9.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-
-								<div class="media">
-									<div class="media-left">
-										<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
-									</div><!--media-left-->
-									<div class="media-body">
-										<h3 class="media-heading"><a href="#">Machester United start the player
-										</a></h3>
-
-										<p>Sed perspiciatis unde omnis iste natus voluptatem.</p>
-
-									</div><!--media-body-->
-								</div><!--media-->
-							</div><!--media_wrapper-->
-			   			</div><!--col-md-5-->
-			   		</div><!--row-->
-		   		</div><!--category_layout-->
-		   		
-		   		<div id="more_news_item" class="more_news_item">
-					<div class="more_news_heading"><h2><a href="#">More News</a></h2></div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="feature_news_item">
-	                			<div class="item">
-									<div class="item_wrapper">
-										<div class="item_img">
-											<img class="img-responsive" src="img/img-news.jpg" alt="Chania">
-										</div><!--item_img--> 
-										<div class="item_title_date">
-											<div class="news_item_title">
-												<h3><a href="#">Track Roboto the Real Tracker.</a></h3>
-											</div><!--news_item_title-->
-                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-										</div><!--item_title_date-->
-									</div><!--item_wrapper-->
-								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
-								    </div><!--item_content-->
-
-								</div><!--item-->               			 
-	            			</div><!--feature_news_item-->
-						</div><!--col-xs-4-->
-							
-						<div class="col-md-4">
-							<div class="feature_news_item">
-	                			<div class="item active">
-									<div class="item_wrapper">
-										<div class="item_img">
-											<img class="img-responsive" src="img/img-news1.jpg" alt="Chania">
-										</div><!--item_img--> 
-										<div class="item_title_date">
-											<div class="news_item_title">
-												<h3><a href="#">Track Roboto the Real Tracker.</a></h3>
-											</div><!--news_item_title-->
-                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-										</div><!--item_title_date-->
-									</div><!--item_wrapper-->
-								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
-								    </div><!--item_content-->
-
-								</div><!--item-->               			 
-	            			</div><!--feature_news_item-->
-						</div><!--col-xs-4-->
-
-						<div class="col-md-4">
-							<div class="feature_news_item">
-	                			<div class="item active">
-									<div class="item_wrapper">
-										<div class="item_img">
-											<img class="img-responsive" src="img/img-news2.jpg" alt="Chania">
-										</div><!--item_img--> 
-										<div class="item_title_date">
-											<div class="news_item_title">
-												<h3><a href="#">Track Roboto the Real Tracker.</a></h3>
-											</div><!--news_item_title-->
-                                            <div class="item_meta"><a href="#">20Aug- 2015,</a> by:<a href="#">Jhonson</a></div>
-										</div><!--item_title_date-->
-									</div><!--item_wrapper-->
-								    <div class="item_content">Sed ut perspiciatis unde omnis iste natus error sit  
-								    </div><!--item_content-->
-
-								</div><!--item-->               			 
-	            			</div><!--feature_news_item-->
-						</div><!--col-xs-4-->
-					</div><!--row-->	
-				</div><!--more_news_item-->	
-		   	</div><!--col-md-9-->
-
-		   	<div class="col-md-3">
-
-				<div class="tab sitebar">
-					<ul class="nav nav-tabs">
-						<li class="active"><a  href="#1" data-toggle="tab">Latest</a></li>
-						<li><a href="#2" data-toggle="tab">Populer</a></li>
-					</ul>
-
-					<div class="tab-content">
-						<div class="tab-pane active" id="1">
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
-								</div><!--media-left-->
-								<div class="media-body">
-									<h4 class="media-heading"><a href="#">Spain going to made class football</a></h4>
-									<span class="rating">
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star-half-full"></i>
-									</span>
-								</div><!--media-body-->
-							</div><!--media-->
-
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="img/img-list5.jpg" alt="Generic placeholder image"></a>
-								</div><!--media-left-->
-								<div class="media-body">
-									<h4 class="media-heading"><a href="#">Spain going to made class football</a></h4>
-									<span class="rating">
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star-half-full"></i>
-									</span>
-								</div><!--media-body-->
-							</div><!--media-->
-
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="img/img-list2.jpg" alt="Generic placeholder image"></a>
-								</div><!--media-left-->
-								<div class="media-body">
-									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-									<span class="rating">
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star-half-full"></i>
-									</span>
-								</div><!--media-body-->
-							</div><!--media-->
-
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
-								</div><!--media-left-->
-								<div class="media-body">
-									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-									<span class="rating">
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star-half-full"></i>
-									</span>
-								</div><!--media-body-->
-							</div><!--media-->
-						</div><!--tab-pane-->
-
-						<div class="tab-pane" id="2">
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="img/img-list4.jpg" alt="Generic placeholder image"></a>
-								</div><!--media-left-->
-								<div class="media-body">
-									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-									<span class="rating">
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star-half-full"></i>
-									</span>
-								</div><!--media-body-->
-							</div><!--media-->
-
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
-								</div><!--media-left-->
-								<div class="media-body">
-									<h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-									<span class="rating">
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star"></i>
-										<i class="fa fa-star-half-full"></i>
-									</span>
-								</div><!--media-body-->
-							</div><!--media-->
-						</div><!--tab-pane-->
-					</div><!--tab-content-->
-				</div><!--tab-->
-
-				<div class="ad">
-					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
-					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
-					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
-					<img class="img-responsive" src="img/img-sitebar.jpg" alt="img" />
-				</div><!--ad-->
-				
-				<div class="ad">
-					<img class="img-responsive" src="img/img-ad.jpg" alt="img" />
-				</div>
-
-				<div class="ad">
-					<img class="img-responsive" src="img/img-ad2.jpg" alt="img" />
-				</div>
-
-                <div class="most_comment">
-                    <div class="sidebar_title">
-                        <h2>Most Commented</h2>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area wow fadeInDown" data-wow-delay="500ms">
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <!-- Logo Area -->
+                        <div class="logo">
+                            <a href="index"><img src="img/core-img/logo.png" alt=""></a>
+                        </div>
+
+                        <!-- Search & Login Area -->
+                        <div class="search-login-area d-flex align-items-center">
+                            <!-- Top Search Area -->
+                            <div class="top-search-area">
+                                <form action="#" method="post">
+                                    <input type="search" name="top-search" id="topSearch" placeholder="Search">
+                                    <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <!-- Login Area -->
+                            <div class="login-area">
+                                <a href="#"><span>Login / Register</span> <i class="fa fa-lock" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"><img class="media-object" src="img/img-list.jpg" alt="Generic placeholder image"></a>
-                        </div><!--media-left-->
-                        <div class="media-body">
-                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-                             <div class="comment_box">
-                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
-                                 <div class="comments"><a href="#">9 Comments</a></div>
-                             </div><!--comment_box-->
-                        </div><!--media-body-->
-                    </div><!--media-->
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"><img class="media-object" src="img/img-list2.jpg" alt="Generic placeholder image"></a>
-                        </div><!--media-left-->
-                        <div class="media-body">
-                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-                            <div class="comment_box">
-                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
-                                <div class="comments"><a href="#">20 Comments</a></div>
-                            </div><!--comment_box-->
-                        </div><!--media-body-->
-                    </div><!--media-->
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
-                        </div><!--media-left-->
-                        <div class="media-body">
-                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-                            <div class="comment_box">
-                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
-                                <div class="comments"><a href="#">23 Comments</a></div>
-                            </div><!--comment_box-->
-                        </div><!--media-body-->
-                    </div><!--media-->
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"><img class="media-object" src="img/img-list3.jpg" alt="Generic placeholder image"></a>
-                        </div><!--media-left-->
-                        <div class="media-body">
-                            <h3 class="media-heading"><a href="#">Spain going to made class football</a></h3>
-                            <div class="comment_box">
-                                <div class="comments_icon"> <i class="fa fa-comments" aria-hidden="true"></i></div>
-                                <div class="comments"><a href="#">44 Comments</a></div>
-                            </div><!--comment_box-->
-                        </div><!--media-body-->
-                    </div><!--media-->
-                </div><!--most_comment-->
-			</div>
-		</div>	   	
-</section><!--feature_category_section-->
+                </div>
+            </div>
+        </div>
 
-    <!-- Feature Video Item -->
-    <section id="feature_video_item" class="feature_video_item section_wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="feature_video_wrapper">
-					<div class="feature_video_title"><h2>Featured Videos</h2></div>
+        <!-- Navbar Area -->
+        <div class="egames-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="egamesNav">
 
-					<div id="feature_video_slider" class="owl-carousel">
-						<div class="item">
-							<div class="video_thumb"><img   src="img/video.jpg" alt="Owl Image"></div>
-							<div class="video_info">
-								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
-								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
-							</div><!--video_info-->
-						</div>
-						<div class="item">
-							<div class="video_thumb"><img   src="img/video2.jpg" alt="Owl Image"></div>
-							<div class="video_info">
-								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
-								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
-							</div><!--video_info-->
-						</div>
-						<div class="item">
-							<div class="video_thumb"><img   src="img/video3.jpg" alt="Owl Image"></div>
-							<div class="video_info">
-								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
-								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
-							</div><!--video_info-->
-						</div>
-						<div class="item">
-							<div class="video_thumb"><img   src="img/video2.jpg" alt="Owl Image"></div>
-							<div class="video_info">
-								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
-								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
-							</div><!--video_info-->
-						</div>
-						<div class="item">
-							<div class="video_thumb"><img   src="img/video.jpg" alt="Owl Image"></div>
-							<div class="video_info">
-								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
-								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
-							</div><!--video_info-->
-						</div>
-						<div class="item">
-							<div class="video_thumb"><img   src="img/video3.jpg" alt="Owl Image"></div>
-							<div class="video_info">
-								<div class="video_item_title"><h3><a href="#">Track & Fiels famous still in the craze of Runner world</a></h3></div><!--video_item_title-->
-								<div class="item_meta"><a href="#">20Aug- 2015</a></div><!--item_meta-->
-							</div><!--video_info-->
-						</div>
-		            </div><!--feature_video_slider-->
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
 
+                        <!-- Menu -->
+                        <div class="classy-menu">
 
-		        </div><!--col-xs-12-->
-	        </div><!--row-->
-        </div><!--feature_video_wrapper-->
-	</div><!--container-->
-</section>
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
 
-    <!-- Footer Section -->
-    <footer class="footer_section section_wrapper section_wrapper" >
-	<div class="footer_top_section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="text_widget footer_widget">
-					<div class="footer_widget_title"><h2>About Sports Mag</h2></div>
-		         
-		         	<div class="footer_widget_content">Collaborativelyadministrate empowered marketsplug-and-play networks. Dynamic procrastinate after.marketsplug-and-play networks. Dynamic procrastinate users after. Dynamic procrastinateafter. marketsplug-and-play networks. Dynamic procrastinate users after...
-					</div>
-					</div><!--text_widget-->
-				</div><!--col-xs-3-->
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="game-review">Games</a>
+                                        <ul class="dropdown">
+                                            <li><a href="game-review">Game Review</a></li>
+                                            <li><a href="about">about</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="post">Kategory</a></li>
+                                            <li><a href="single-post">Single Post</a></li>
+                                            <li><a href="game-review">Game Review</a></li>
+                                            <li><a href="about">about</a></li>
+                                            <li><a href="contact">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="post">Kategory</a>
+                                        <ul class="dropdown">
+                                            <li><a href="post">Kategory</a></li>
+                                            <li><a href="single-post">News Single Post</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about">Reviews</a>
+                                        <ul class="dropdown">
+                                            <li><a href="game-review">Game Review</a></li>
+                                            <li><a href="about">about</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
 
-				<div class="col-md-6">
-					<div class="footer_widget">
-                        <div class="footer_widget_title"><h2>Discover</h2></div>
-					    <div class="footer_menu_item ">
-						<div class="row">
-							<div class="col-sm-4"> 
-								<ul class="nav navbar-nav ">
-									<li><a href="../navbar/">Baseball</a></li>
-									<li><a href="../navbar-static-top/">Football</a></li>
-									<li><a href="./">Cricket</a></li>
-									<li><a href="../navbar/">Rugbi</a></li>
-									<li><a href="../navbar/">Hockey</a></li>
-									<li><a href="../navbar-static-top/">Boxing</a></li>
-									<li><a href="./">Golf</a></li>
-									<li><a href="../navbar/">Tennis</a></li>
-									<li><a href="../navbar/">Horse Racing</a></li>
-								</ul>
-						    </div><!--col-sm-4-->
-					        <div class="col-sm-4 "> 					  						
-								<ul class="nav navbar-nav  ">
-									<li><a href="../navbar/">Track & Field</a></li>
-									<li><a href="../navbar-static-top/">MembershipContact us</a></li>
-									<li><a href="./">Newsletter Alerts</a></li>
-									<li><a href="../navbar/">Podcast</a></li>
-									<li><a href="../navbar/">Blog</a></li>
-									<li><a href="../navbar-static-top/">SMS Subscription</a></li>
-									<li><a href="./">Advertisement Policy</a></li>
-									<li><a href="../navbar/">Jobs</a></li>
-								</ul>
-					        </div><!--col-sm-4-->
-					        <div class="col-sm-4"> 
-								<ul class="nav navbar-nav ">
-									<li><a href="../navbar/">Report technical issue</a></li>
-									<li><a href="../navbar-static-top/">Complaints & Corrections</a></li>
-									<li><a href="./">Terms & Conditions</a></li>
-									<li><a href="../navbar-static-top/">Privacy Policy</a></li>
-									<li><a href="./">Cookie Policy</a></li>
-									<li><a href="../navbar/">Securedrop</a></li>
-									<li><a href="../navbar/">Archives</a></li>
-								</ul>
-					        </div><!--col-sm-4-->
-				      	</div><!--row-->
-			      	</div><!--footer_menu_item-->
-                    </div><!--footer_widget-->
-				</div><!--col-xs-6-->
+                        <!-- Top Social Info -->
+                        <div class="top-social-info">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
 
-				<div class="col-md-3">
- 					<div class="text_widget footer_widget">
-						<div class="footer_widget_title"><h2>Editor’s Message</h2></div>
-						<img src="img/img-author.jpg" />
-						<div class="footer_widget_content">Collaborativelyadministrate empowered marketsplug-and-play networks. Dynamic procrastinate after.marketsplug-and-play networks. Dynamic procrastinate users after. Dynamic procrastinateafter. marketsplug-and-play networks. Dynamic procrastinate users after...</div>
-					</div>
-				</div><!--col-xs-3-->
-			</div><!--row-->
-		</div><!--container-->
-	</div><!--footer_top_section-->
-	<a href="#" class="crunchify-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-	
-	<div class="copyright-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-							Editor: Joshep guinter Grunt
-					</div><!--col-xs-3-->
-					<div class="col-md-6">
-						<div class="copyright">
-						© Copyright 2015 - Sports News Mag.com. Design by: <a href="https://uiCookies.com" title="uiCookies">uiCookies</a>
-						</div>
-					</div><!--col-xs-6-->
-					<div class="col-md-3">
-						Sports News Magazine
-					</div><!--col-xs-3-->
-				</div><!--row-->
-			</div><!--container-->
-		</div><!--copyright-section-->
-</footer>
+    <!-- ##### Hero Area Start ##### -->
+    <div class="hero-area">
+        <!-- Hero Post Slides -->
+        <div class="hero-post-slides owl-carousel">
 
-</div> <!--main-wrapper-->
-  
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/jquery.min.js"></script>
+            <!-- Single Slide -->
+            <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
+                <!-- Blog Content -->
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 col-lg-9">
+                            <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
+                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!-- Owl carousel -->
-<script src="js/owl.carousel.js"></script>
+            <!-- Single Slide -->
+            <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
+                <!-- Blog Content -->
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 col-lg-9">
+                            <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
+                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
+        </div>
+    </div>
+    <!-- ##### Hero Area End ##### -->
 
-<!-- Theme Script File-->
-<script src="js/script.js"></script> 
+    <!-- ##### Games Area Start ##### -->
+    <div class="games-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- Single Games Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-games-area text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
+                        <img src="img/bg-img/game1.jpg" alt="">
+                        <a href="#" class="btn egames-btn mt-30">View Games</a>
+                    </div>
+                </div>
 
-<!-- Off Canvas Menu -->
-<script src="js/offcanvas.min.js"></script> 
+                <!-- Single Games Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-games-area text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/game2.jpg" alt="">
+                        <a href="#" class="btn egames-btn mt-30">View Games</a>
+                    </div>
+                </div>
 
+                <!-- Single Games Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-games-area text-center mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/game3.jpg" alt="">
+                        <a href="#" class="btn egames-btn mt-30">View Games</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Games Area End ##### -->
 
-   
+    <!-- ##### Monthly Picks Area Start ##### -->
+    <section class="monthly-picks-area section-padding-100 bg-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="left-right-pattern"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Title -->
+                    <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms">This Month’s Pick</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="popular-tab" data-toggle="tab" href="#popular" role="tab" aria-controls="popular" aria-selected="true">Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="latest-tab" data-toggle="tab" href="#latest" role="tab" aria-controls="latest" aria-selected="false">Latest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="editor-tab" data-toggle="tab" href="#editor" role="tab" aria-controls="editor" aria-selected="false">Editor’s Pick</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content wow fadeInUp" data-wow-delay="500ms" id="myTabContent">
+            <div class="tab-pane fade show active" id="popular" role="tabpanel" aria-labelledby="popular-tab">
+                <!-- Popular Games Slideshow -->
+                <div class="popular-games-slideshow owl-carousel">
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/50.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/51.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Doom</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/52.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">God of War</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/53.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Bloodborne</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/54.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Persona 5</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/52.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">God of War</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/53.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Bloodborne</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/54.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Persona 5</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="latest" role="tabpanel" aria-labelledby="latest-tab">
+                <!-- Latest Games Slideshow -->
+                <div class="latest-games-slideshow owl-carousel">
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/50.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/51.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Doom</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/52.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">God of War</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/53.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Bloodborne</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/54.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Persona 5</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/52.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">God of War</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/53.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Bloodborne</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/54.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Persona 5</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="editor" role="tabpanel" aria-labelledby="editor-tab">
+                <!-- Editor Games Slideshow -->
+                <div class="editor-games-slideshow owl-carousel">
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/50.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/51.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Doom</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/52.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">God of War</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/53.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Bloodborne</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/54.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Persona 5</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/52.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">God of War</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/53.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Bloodborne</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="img/bg-img/54.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Persona 5</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Monthly Picks Area End ##### -->
+
+    <!-- ##### Video Area Start ##### -->
+    <div class="egames-video-area section-padding-100 bg-pattern2">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="egames-nav-btn">
+                        <div class="nav flex-column" id="video-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="video1" data-toggle="pill" href="#video-1" role="tab" aria-controls="video-1" aria-selected="true">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="100ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/14.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Assemble Your Squad and Join the Battle</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+
+                            <a class="nav-link" id="video2" data-toggle="pill" href="#video-2" role="tab" aria-controls="video-2" aria-selected="false">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/15.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Tips to improve your game</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+
+                            <a class="nav-link" id="video3" data-toggle="pill" href="#video-3" role="tab" aria-controls="video-3" aria-selected="false">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="300ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/16.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Game reviews: the best of 2018</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+
+                            <a class="nav-link" id="video4" data-toggle="pill" href="#video-4" role="tab" aria-controls="video-4" aria-selected="false">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="400ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/17.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Assemble Your Squad and Join the Battle</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+
+                            <a class="nav-link" id="video5" data-toggle="pill" href="#video-5" role="tab" aria-controls="video-5" aria-selected="false">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="500ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/18.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Tips to improve your game</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+
+                            <a class="nav-link" id="video6" data-toggle="pill" href="#video-6" role="tab" aria-controls="video-6" aria-selected="false">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="600ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/14.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Game reviews: the best of 2018</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+
+                            <a class="nav-link" id="video7" data-toggle="pill" href="#video-7" role="tab" aria-controls="video-7" aria-selected="false">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="700ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/15.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Tips to improve your game</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+
+                            <a class="nav-link" id="video8" data-toggle="pill" href="#video-8" role="tab" aria-controls="video-8" aria-selected="false">
+                                <!-- Single Video Widget -->
+                                <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="800ms">
+                                    <div class="video-thumbnail">
+                                        <img src="img/bg-img/16.jpg" alt="">
+                                    </div>
+                                    <div class="video-text">
+                                        <p class="video-title mb-0">Game reviews: the best of 2018</p>
+                                        <span>Nintendo Wii, PS4, XBox 360</span>
+                                    </div>
+                                    <div class="video-rating">8.3/10</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-8">
+                    <div class="tab-content" id="video-tabContent">
+                        <div class="tab-pane fade show active" id="video-1" role="tabpanel" aria-labelledby="video1">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/45.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="video-2" role="tabpanel" aria-labelledby="video2">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/46.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="video-3" role="tabpanel" aria-labelledby="video3">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/47.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="video-4" role="tabpanel" aria-labelledby="video4">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/48.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="video-5" role="tabpanel" aria-labelledby="video5">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/49.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="video-6" role="tabpanel" aria-labelledby="video6">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/45.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="video-7" role="tabpanel" aria-labelledby="video7">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/46.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="video-8" role="tabpanel" aria-labelledby="video8">
+                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/47.jpg);">
+                                <!-- Play Button -->
+                                <div class="play-btn">
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="img/core-img/play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Video Area End ##### -->
+
+    <!-- ##### Articles Area Start ##### -->
+    <section class="latest-articles-area section-padding-100-0 bg-img bg-pattern bg-fixed" style="background-image: url(img/bg-img/5.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="mb-100">
+                        <!-- Title -->
+                        <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms">Latest Articles</h2>
+
+                        <!-- *** Single Articles Area *** -->
+                        <div class="single-articles-area style-2 d-flex flex-wrap mb-30 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="article-thumbnail">
+                                <img src="img/bg-img/6.jpg" alt="">
+                            </div>
+                            <div class="article-content">
+                                <a href="single-post" class="post-title">Sony’s new releases for 2018</a>
+                                <div class="post-meta">
+                                    <a href="#" class="post-date">July 12, 2018</a>
+                                    <a href="#" class="post-comments">2 Comments</a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam.</p>
+                            </div>
+                        </div>
+
+                        <!-- *** Single Articles Area *** -->
+                        <div class="single-articles-area style-2 d-flex flex-wrap mb-30 wow fadeInUp" data-wow-delay="500ms">
+                            <div class="article-thumbnail">
+                                <img src="img/bg-img/7.jpg" alt="">
+                            </div>
+                            <div class="article-content">
+                                <a href="single-post" class="post-title">10 Tips to be a better gamer</a>
+                                <div class="post-meta">
+                                    <a href="#" class="post-date">July 12, 2018</a>
+                                    <a href="#" class="post-comments">2 Comments</a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam.</p>
+                            </div>
+                        </div>
+
+                        <!-- *** Single Articles Area *** -->
+                        <div class="single-articles-area style-2 d-flex flex-wrap mb-30 wow fadeInUp" data-wow-delay="700ms">
+                            <div class="article-thumbnail">
+                                <img src="img/bg-img/8.jpg" alt="">
+                            </div>
+                            <div class="article-content">
+                                <a href="single-post" class="post-title">Microsoft has some new tips</a>
+                                <div class="post-meta">
+                                    <a href="#" class="post-date">July 12, 2018</a>
+                                    <a href="#" class="post-comments">2 Comments</a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Title -->
+                    <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms">This week’s deal</h2>
+
+                    <!-- Single Widget Area -->
+                    <div class="single-widget-area add-widget wow fadeInUp" data-wow-delay="300ms">
+                        <a href="#"><img src="img/bg-img/add.png" alt=""></a>
+                        <!-- Side Img -->
+                        <img src="img/bg-img/side-img.png" class="side-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Articles Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area section-padding-100-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="widget-title">
+                                <a href="/"><img src="img/core-img/logo2.png" alt=""></a>
+                            </div>
+                            <div class="widget-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam ut interdum ultricies.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="widget-title">
+                                <h4>Game Reviews</h4>
+                            </div>
+                            <div class="widget-content">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Doom</a></li>
+                                        <li><a href="#">Grand Theft Auto</a></li>
+                                        <li><a href="#">Bloodborne</a></li>
+                                        <li><a href="#">God of war</a></li>
+                                        <li><a href="#">Persona 5</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="500ms">
+                            <div class="widget-title">
+                                <h4>Usefull Links</h4>
+                            </div>
+                            <div class="widget-content">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Testimanials</a></li>
+                                        <li><a href="#">Reviews</a></li>
+                                        <li><a href="#">New Games</a></li>
+                                        <li><a href="#">Forum</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-70 wow fadeInUp" data-wow-delay="700ms">
+                            <div class="widget-title">
+                                <h4>What’s new</h4>
+                            </div>
+                            <div class="widget-content">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Doom</a></li>
+                                        <li><a href="#">Grand Theft Auto</a></li>
+                                        <li><a href="#">Bloodborne</a></li>
+                                        <li><a href="#">God of war</a></li>
+                                        <li><a href="#">Persona 5</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Area -->
+        <div class="copywrite-content">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 col-sm-5">
+                        <!-- Copywrite Text -->
+                        <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+                    </div>
+                    <div class="col-12 col-sm-7">
+                        <!-- Footer Nav -->
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="game-review">Games</a></li>
+                                <li><a href="post">Articles</a></li>
+                                <li><a href="about">Reviews</a></li>
+                                <li><a href="contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </body>
+
 </html>
