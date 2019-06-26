@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from deothemes.com/envato/deus/html/single-post-music by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:31 GMT -->
+<!-- Mirrored from deothemes.com/envato/deus/html/single-post-fashion by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:15 GMT -->
 <head>
-  <title>Deus | Single Post Music</title>
+  <title>Deus | Single Post Fashion</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -11,13 +11,13 @@
   <meta name="description" content="">
 
   <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Rubik:400,600,700%7CRoboto:400,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400i,700%7CBarlow:400,500,700' rel='stylesheet'>
 
   <!-- Css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-icons.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/colors/cyan.css" />
+  <link rel="stylesheet" href="css/colors/pink.css" />
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -30,7 +30,7 @@
 
 </head>
 
-<body class="style-music single-post">
+<body class="bg-light style-fashion">
 
   <!-- Preloader -->
   <div class="loader-mask">
@@ -138,63 +138,27 @@
 
   <main class="main oh" id="main">
 
-    <!-- Top Bar -->
-    <div class="top-bar d-none d-lg-block">
-      <div class="container">
-        <div class="row">
-
-          <!-- Top menu -->
-          <div class="col-lg-6">
-            <ul class="top-menu">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Advertise</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          
-          <!-- Socials -->
-          <div class="col-lg-6">
-            <div class="socials nav__socials socials--nobase socials--white justify-content-end"> 
-              <a class="social social-facebook" href="#" target="_blank" aria-label="facebook">
-                <i class="ui-facebook"></i>
-              </a>
-              <a class="social social-twitter" href="#" target="_blank" aria-label="twitter">
-                <i class="ui-twitter"></i>
-              </a>
-              <a class="social social-google-plus" href="#" target="_blank" aria-label="google">
-                <i class="ui-google"></i>
-              </a>
-              <a class="social social-youtube" href="#" target="_blank" aria-label="youtube">
-                <i class="ui-youtube"></i>
-              </a>
-              <a class="social social-instagram" href="#" target="_blank" aria-label="instagram">
-                <i class="ui-instagram"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div> <!-- end top bar -->        
-
     <!-- Navigation -->
-    <header class="nav">
-
+    <header class="nav nav--2">
       <div class="nav__holder nav--sticky">
         <div class="container relative">
           <div class="flex-parent">
+  
+            <div class="flex-child">
+              <div class="logo-holder">
+                <!-- Side Menu Button -->
+                <button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
+                  <span class="nav-icon-toggle__box">
+                    <span class="nav-icon-toggle__inner"></span>
+                  </span>
+                </button> 
 
-            <!-- Side Menu Button -->
-            <button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
-              <span class="nav-icon-toggle__box">
-                <span class="nav-icon-toggle__inner"></span>
-              </span>
-            </button> 
-
-            <!-- Logo -->
-            <a href="/" class="logo">
-              <img class="logo__img" src="img/logo_default.png" srcset="img/logo_default.png 1x, img/logo_default@2x.png 2x" alt="logo">
-            </a>
+                <!-- Logo -->
+                <a href="/" class="logo">
+                  <img class="logo__img" src="img/logo_fashion.png" srcset="img/logo_fashion.png 1x, img/logo_fashion@2x.png 2x" alt="logo">
+                </a>
+              </div>
+            </div>
 
             <!-- Nav-wrap -->
             <nav class="flex-child nav__wrap d-none d-lg-block">              
@@ -222,7 +186,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-fashion">
                                   <img src="img/content/grid/grid_post_1.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--violet">world</a>
@@ -230,7 +194,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">Follow These Smartphone Habits of Successful Entrepreneurs</a>
+                                  <a href="single-post-fashion">Follow These Smartphone Habits of Successful Entrepreneurs</a>
                                 </h2>
                               </div>
                             </article>
@@ -239,7 +203,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-fashion">
                                   <img src="img/content/grid/grid_post_2.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--purple">fashion</a>
@@ -247,7 +211,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">3 Things You Can Do to Get Your Customers Talking About Your Business</a>
+                                  <a href="single-post-fashion">3 Things You Can Do to Get Your Customers Talking About Your Business</a>
                                 </h2>
                               </div>
                             </article>
@@ -256,7 +220,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-fashion">
                                   <img src="img/content/grid/grid_post_3.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">business</a>
@@ -264,7 +228,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
+                                  <a href="single-post-fashion">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
                                 </h2>
                               </div>
                             </article>
@@ -273,7 +237,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-fashion">
                                   <img src="img/content/grid/grid_post_4.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--green">lifestyle</a>
@@ -281,7 +245,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">10 Horrible Habits You're Doing Right Now That Are Draining Your Energy</a>
+                                  <a href="single-post-fashion">10 Horrible Habits You're Doing Right Now That Are Draining Your Energy</a>
                                 </h2>
                               </div>
                             </article>
@@ -302,7 +266,7 @@
                     <li><a href="categories">Categories</a></li>
                     <li><a href="404">404</a></li>
                   </ul>
-                </li>                
+                </li>
 
                 <li class="nav__dropdown">
                   <a href="#">Features</a>
@@ -321,28 +285,32 @@
                     </li>
                   </ul>
                 </li>
+
+
               </ul> <!-- end menu -->
             </nav> <!-- end nav-wrap -->
-
+          
             <!-- Nav Right -->
-            <div class="nav__right">
+            <div class="flex-child">
+              <div class="nav__right">
 
-              <!-- Search -->
-              <div class="nav__right-item nav__search">
-                <a href="#" class="nav__search-trigger" id="nav__search-trigger">
-                  <i class="ui-search nav__search-trigger-icon"></i>
-                </a>
-                <div class="nav__search-box" id="nav__search-box">
-                  <form class="nav__search-form">
-                    <input type="text" placeholder="Search an article" class="nav__search-input">
-                    <button type="submit" class="search-button btn btn-lg btn-color btn-button">
-                      <i class="ui-search nav__search-icon"></i>
-                    </button>
-                  </form>
-                </div>                
-              </div>             
+                <!-- Search -->
+                <div class="nav__right-item nav__search">
+                  <a href="#" class="nav__search-trigger" id="nav__search-trigger">
+                    <i class="ui-search nav__search-trigger-icon"></i>
+                  </a>
+                  <div class="nav__search-box" id="nav__search-box">
+                    <form class="nav__search-form">
+                      <input type="text" placeholder="Search an article" class="nav__search-input">
+                      <button type="submit" class="search-button btn btn-lg btn-color btn-button">
+                        <i class="ui-search nav__search-icon"></i>
+                      </button>
+                    </form>
+                  </div>                
+                </div>             
 
-            </div> <!-- end nav right -->            
+              </div> <!-- end nav right -->
+            </div>          
         
           </div> <!-- end flex-parent -->
         </div> <!-- end container -->
@@ -363,48 +331,61 @@
           World
         </li>
       </ul>
-    </div>
+    </div> 
 
-    <!-- Entry Image -->
-    <div class="thumb thumb--size-6">
-      <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/single/single_post_music_featured_img.jpg');">
-        <div class="bottom-gradient"></div>
-        <div class="container">
-          <div class="thumb-text-holder thumb-text-holder--5">
-            <ul class="entry__meta">
-              <li>
-                <a href="#" class="entry__meta-category">concerts</a>
-              </li>
-            </ul>
-            <h1 class="thumb-entry-title single-post__thumb-entry-title">
-              Meghan Trainor and 'Queer Eye' Cast Team Up for Spotify Takeover: Listen
-            </h1>
-            <ul class="entry__meta">
-              <li class="entry__meta-author">
-                <span>by</span>
-                <a href="#">DeoThemes</a>
-              </li>
-              <li class="entry__meta-date">
-                Jan 21, 2018
-              </li>
-            </ul>
-            
-          </div>          
-        </div>
+
+    <div class="main-container container" id="main-container">
+      
+      <!-- Entry Image -->
+      <div class="entry__img-holder mb-40">
+        <img src="img/content/single/single_post_fashion_featured_img.jpg" alt="" class="entry__img">
       </div>
-    </div>
 
-    <div class="main-container container" id="main-container">      
+      <!-- Content -->
+      <div class="row">
 
-      <!-- post content -->
-      <div class="blog__content mb-72">
+        <!-- Post Content -->
+        <div class="col-lg-8 blog__content mb-72">
+          <div class="content-box content-box--top-offset">
 
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
             <!-- standard post -->
             <article class="entry mb-0">
+              
+              <div class="single-post__entry-header entry__header">
+                <ul class="entry__meta">
+                  <li class="entry__meta-category">
+                    <a href="#">Trends</a>
+                  </li>
+                  <li class="entry__meta-date">
+                    5 Days Ago
+                  </li>              
+                </ul>
+                <h1 class="single-post__entry-title">
+                  At Prada, Supermodels, Virtual Models, and a History-Making Moment
+                </h1>
+                <div class="entry__meta-holder">
+                  <ul class="entry__meta">
+                    <li class="entry__meta-author">
+                      <span>by</span>
+                      <a href="#">DeoThemes</a>
+                    </li>
+                  </ul>
 
-              <div class="entry__article-wrap mt-0">
+                  <ul class="entry__meta">
+                    <li class="entry__meta-views">
+                      <i class="ui-eye"></i>
+                      <span>1356</span>
+                    </li>
+                    <li class="entry__meta-comments">
+                      <a href="#">
+                        <i class="ui-chat-empty"></i>13
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end entry header -->              
+
+              <div class="entry__article-wrap">
 
                 <!-- Share -->
                 <div class="entry__share">
@@ -550,9 +531,7 @@
                   </h6>
                   <p class="mb-0">But unfortunately for most of us our role as gardener has never been explained to us. And in misunderstanding our role, we have allowed seeds of all types, both good and bad, to enter our inner garden.</p>
                 </div>
-              </div>
-
-              
+              </div>              
 
               <!-- Related Posts -->
               <section class="section related-posts mt-40 mb-0">
@@ -715,156 +694,232 @@
                 
               </form>
             </div> <!-- end comment form -->
-          </div>
-        </div>
-        
-      </div> <!-- end post content -->
+                           
+          </div> <!-- end content box -->
+        </div> <!-- end post content -->
+
+        <!-- Sidebar -->
+        <aside class="col-lg-4 sidebar sidebar--right">
+
+          <!-- Widget Newsletter -->
+          <aside class="widget widget_mc4wp_form_widget">
+            <h4 class="widget-title">Newsletter</h4>
+            <p class="newsletter__text">
+              <i class="ui-email newsletter__icon"></i>
+              Subscribe for our daily news
+            </p>
+            <form class="mc4wp-form" method="post">
+              <div class="mc4wp-form-fields">
+                <div class="form-group">
+                  <input type="email" name="EMAIL" placeholder="Your email" required="">
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
+                </div>
+              </div>
+            </form>
+          </aside> <!-- end widget newsletter -->
+
+          <!-- Widget Socials -->
+          <aside class="widget widget-socials text-center">
+            <div class="socials socials--rounded socials--large">
+              <a class="social social-facebook" href="#" title="facebook" target="_blank" aria-label="facebook">
+                <i class="ui-facebook"></i>
+              </a><!--
+              --><a class="social social-twitter" href="#" title="twitter" target="_blank" aria-label="twitter">
+                <i class="ui-twitter"></i>
+              </a><!--
+              --><a class="social social-youtube" href="#" title="youtube" target="_blank" aria-label="youtube">
+                <i class="ui-youtube"></i>
+              </a>
+              <a class="social social-google-plus" href="#" title="google" target="_blank" aria-label="google">
+                <i class="ui-google"></i>
+              </a><!--
+              --><a class="social social-instagram" href="#" title="instagram" target="_blank" aria-label="instagram">
+                <i class="ui-instagram"></i>
+              </a><!--
+              --><a class="social social-rss" href="#" title="rss" target="_blank" aria-label="rss">
+                <i class="ui-rss"></i>
+              </a>           
+            </div>
+          </aside> <!-- end widget socials -->
+
+          <!-- Widget Latest Videos -->
+          <aside class="widget widget-latest-videos">
+            <h4 class="widget-title">Latest Videos</h4>
+            <article class="entry">
+              <div class="entry__img-holder">
+                <a href="single-post-fashion">
+                  <div class="thumb-container thumb-50">
+                    <img data-src="img/content/grid/grid_post_18.jpg" src="img/empty.png" class="entry__img lazyload" alt="">
+                  </div>
+                </a>
+                <div class="entry__play-time"><i class="ui-play"></i>3:21</div>
+              </div>
+              <div class="entry__body">
+                <div class="entry__header">                  
+                  <h2 class="entry__title">
+                    <a href="single-post-fashion">9 Elegant Wedding-Guest Outfit Ideas You Can Always Rely Upon</a>
+                  </h2>
+                </div>
+              </div>
+            </article>
+            <article class="entry">
+              <div class="entry__img-holder">
+                <a href="single-post-fashion">
+                  <div class="thumb-container thumb-50">
+                    <img data-src="img/content/grid/grid_post_19.jpg" src="img/empty.png" class="entry__img lazyload" alt="">
+                  </div>
+                </a>
+                <div class="entry__play-time"><i class="ui-play"></i>3:21</div>
+              </div>
+              <div class="entry__body">
+                <div class="entry__header">                  
+                  <h2 class="entry__title">
+                    <a href="single-post-fashion">Amazing Workwear Buys to Realise Your Office Attire Goals</a>
+                  </h2>
+                </div>
+              </div>
+            </article>
+            <article class="entry">
+              <div class="entry__img-holder">
+                <a href="single-post-fashion">
+                  <div class="thumb-container thumb-50">
+                    <img data-src="img/content/grid/grid_post_20.jpg" src="img/empty.png" class="entry__img lazyload" alt="">
+                  </div>
+                </a>
+                <div class="entry__play-time"><i class="ui-play"></i>3:21</div>
+              </div>
+              <div class="entry__body">
+                <div class="entry__header">                  
+                  <h2 class="entry__title">
+                    <a href="single-post-fashion">Showcase Individuality—so Why Is It Creating a outfit?</a>
+                  </h2>
+                </div>
+              </div>
+            </article>
+          </aside> <!-- end widget latest videos -->
+
+          <!-- Widget Instagram -->
+          <aside class="widget widget-instagram">
+            <h4 class="widget-title">Instagram Feed</h4>
+            <ul class="widget-instagram__list clearfix">
+              <li><a href="#"><img src="img/content/instagram/1_small.jpg" alt=""></a></li>
+              <li><a href="#"><img src="img/content/instagram/2_small.jpg" alt=""></a></li>
+              <li><a href="#"><img src="img/content/instagram/3_small.jpg" alt=""></a></li>
+              <li><a href="#"><img src="img/content/instagram/4_small.jpg" alt=""></a></li>
+              <li><a href="#"><img src="img/content/instagram/5_small.jpg" alt=""></a></li>
+              <li><a href="#"><img src="img/content/instagram/6_small.jpg" alt=""></a></li>
+            </ul>
+          </aside> <!-- end widget instagram -->          
+          
+          <!-- Widget Ad 300 -->
+          <aside class="widget widget_media_image">
+            <a href="#">
+              <img src="img/content/placeholder_336.jpg" alt="">
+            </a>
+          </aside> <!-- end widget ad 300 -->
+
+        </aside> <!-- end sidebar -->
+  
+      </div> <!-- end content -->
     </div> <!-- end main container -->
 
-    <!-- Footer -->
-    <footer class="footer footer--dark footer--bg-img" style="background-image: url('img/content/footer/footer_bg_img.jpg');">
-      <div class="container">
-        <div class="footer__widgets">
-          <div class="footer__widgets-top">
-            <div class="row justify-content-between align-items-center">
-              <div class="col-md-4">
-                <a href="/">
-                  <img src="img/logo_default_white.png" srcset="img/logo_default_white.png 1x, img/logo_default_white@2x.png 2x" class="logo__img" alt="">
-                </a>
-              </div>
+    <!-- Instagram -->
+    <div class="widget-instagram-wide text-center">
+      <h5 class="widget-instagram-wide__title">DeoThemes @ Instagram</h5>
+      <ul class="widget-instagram-wide__list">
+        <li><a href="#"><img src="img/content/instagram/1.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/content/instagram/2.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/content/instagram/3.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/content/instagram/4.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/content/instagram/5.jpg" alt=""></a></li>
+      </ul>
+    </div>
 
-              <div class="col-md-6">              
-                <div class="socials socials--large socials--nobase justify-content-md-end">
-                  <a href="#" class="social social-facebook" aria-label="facebook"><i class="ui-facebook"></i></a>
-                  <a href="#" class="social social-twitter" aria-label="twitter"><i class="ui-twitter"></i></a>
-                  <a href="#" class="social social-google-plus" aria-label="google+"><i class="ui-google"></i></a>
-                  <a href="#" class="social social-youtube" aria-label="youtube"><i class="ui-youtube"></i></a>
-                  <a href="#" class="social social-instagram" aria-label="instagram"><i class="ui-instagram"></i></a>
+    <!-- Newsletter Wide -->
+    <div class="newsletter-wide">
+      <div class="container">
+        <div class="row justify-content-lg-center">
+          <div class="col-xl-6 col-lg-8">
+            <div class="widget widget_mc4wp_form_widget">
+              <div class="newsletter-wide__container">
+                <div class="newsletter-wide__text-holder">
+                  <p class="newsletter-wide__text">
+                    <i class="ui-email newsletter__icon"></i>
+                    Subscribe for our daily news
+                  </p>
                 </div>
-              </div>
+                <div class="newsletter-wide__form">
+                  <form class="mc4wp-form" method="post">
+                    <div class="mc4wp-form-fields">
+                      <div class="form-group">
+                        <input type="email" name="EMAIL" placeholder="Your email" required="">
+                      </div>
+                      <div class="form-group">
+                        <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
+                      </div>
+                    </div>
+                  </form>
+                </div> 
+              </div>         
             </div>
           </div>
-          
+        </div>
+      </div>
+    </div> <!-- end newsletter wide -->
+
+
+    <!-- Footer -->
+    <footer class="footer footer--white">
+      <div class="container">
+        <div class="footer__widgets footer__widgets--short">
           <div class="row">
 
-            <div class="col-lg-2 col-md-6">
-              <aside class="widget widget_nav_menu">
-                <h4 class="widget-title">Useful Links</h4>
-                <ul>
-                  <li><a href="about">About</a></li>
-                  <li><a href="contact">Contact</a></li>
-                  <li><a href="single-post-music">Projects</a></li>
-                  <li><a href="single-post-music">Wordpress Themes</a></li>
-                  <li><a href="categories">Advertise</a></li>
-                </ul>
-              </aside>
-            </div>
-           
-            <div class="col-lg-4 col-md-6">
-              <aside class="widget widget-twitter">
-                <h4 class="widget-title">Latest Tweets</h4>
-                <div class="tweets-container">
-                  <div id="tweets"></div>                  
-                </div>
-              </aside>
+            <div class="col-lg-3">
+              <a href="/" class="logo">
+                <img class="logo__img" src="img/logo_fashion.png" srcset="img/logo_fashion.png 1x, img/logo_fashion@2x.png 2x" alt="logo">
+              </a>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-              <aside class="widget widget-popular-posts">
-                <h4 class="widget-title">Most Popular</h4>
-                <ul class="post-list-small post-list-small--1">
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-music">
-                            <img data-src="img/content/post_small/post_small_46.jpg" src="img/empty.png" alt="" class="lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-music">WATCH Suprise Performance, Shoots Whiskey at Nashville’s</a>
-                        </h3>
-                      </div>                  
-                    </article>
-                  </li>
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-music">
-                            <img data-src="img/content/post_small/post_small_47.jpg" src="img/empty.png" alt="" class="lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-music">Jack, Chris &amp; More to Headline 2018 Pilgrimage Festival</a>
-                        </h3>
-                      </div>                  
-                    </article>
-                  </li>
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-music">
-                            <img data-src="img/content/post_small/post_small_48.jpg" src="img/empty.png" alt="" class="lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-music">Meghan Trainor and 'Queer Eye' Cast Team Up for Spotify ...</a>
-                        </h3>
-                      </div>                  
-                    </article>
-                  </li>
-                </ul>
-              </aside>              
+            <div class="col-lg-6">
+              <div class="widget">
+                <p>However, while the hue has been set, that doesn't mean any of the outfit choices have been boring. We've scoured the latest collections to bring you a fashion editor's selection of the greatest new-season pieces to invest in, be it for a ceremony on a beach, in a city or nestled in a country retreat.</p>
+              </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-              <aside class="widget widget_mc4wp_form_widget">
-                <h4 class="widget-title">Newsletter</h4>
-                <p class="newsletter__text">
-                  <i class="ui-email newsletter__icon"></i>
-                  Subscribe for our daily news
-                </p>
-                <form class="mc4wp-form" method="post">
-                  <div class="mc4wp-form-fields">
-                    <div class="form-group">
-                      <input type="email" name="EMAIL" placeholder="Your email" required="">
-                    </div>
-                    <div class="form-group">
-                      <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
-                    </div>
-                  </div>
-                </form>                
-              </aside>
-            </div>           
+            <div class="col-lg-3">
+              <div class="socials socials--large socials--rounded socials--grey justify-content-lg-end">
+                <a href="#" class="social social-facebook social--large social--rounded" aria-label="facebook"><i class="ui-facebook"></i></a>
+                <a href="#" class="social social-twitter social--large social--rounded" aria-label="twitter"><i class="ui-twitter"></i></a>
+                <a href="#" class="social social-google-plus social--large social--rounded" aria-label="google+"><i class="ui-google"></i></a>
+                <a href="#" class="social social-youtube social--large social--rounded" aria-label="youtube"><i class="ui-youtube"></i></a>
+                <a href="#" class="social social-instagram social--large social--rounded" aria-label="instagram"><i class="ui-instagram"></i></a>
+              </div>
+            </div>            
 
-
-
-          </div> <!-- end row -->
-        </div> <!-- end footer widgets -->
+          </div>
+        </div>
+        <div class="footer__bottom top-divider">
+          <div class="row">
+            <div class="col-lg-3">
+              <p class="copyright">
+                © 2018 Deus | Made by <a href="https://deothemes.com/">DeoThemes</a>
+              </p>
+            </div>
+            <div class="col-lg-9">
+              <ul class="footer__nav-menu footer__nav-menu--1">
+                <li><a href="about">About</a></li>
+                <li><a href="contact">News</a></li>
+                <li><a href="categories">Advertise</a></li>
+                <li><a href="shortcodes">Support</a></li>
+                <li><a href="shortcodes">Contact</a></li>
+              </ul>
+            </div>
+          </div>          
+          
+        </div>
       </div> <!-- end container -->
-
-      <div class="footer__bottom footer__bottom--dark">
-        <div class="container text-center">
-          <ul class="footer__nav-menu footer__nav-menu--1">
-            <li><a href="about">About</a></li>
-            <li><a href="contact">News</a></li>
-            <li><a href="categories">Advertise</a></li>
-            <li><a href="shortcodes">Support</a></li>
-            <li><a href="shortcodes">Contact</a></li>
-          </ul>
-          <p class="copyright">
-            © 2018 Deus | Made by <a href="https://deothemes.com/">DeoThemes</a>
-          </p>   
-        </div>            
-      </div> <!-- end footer bottom -->
     </footer> <!-- end footer -->
 
     <div id="back-to-top">
@@ -888,5 +943,5 @@
 
 </body>
 
-<!-- Mirrored from deothemes.com/envato/deus/html/single-post-music by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:42 GMT -->
+<!-- Mirrored from deothemes.com/envato/deus/html/single-post-fashion by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:16 GMT -->
 </html>

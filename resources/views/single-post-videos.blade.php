@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from deothemes.com/envato/deus/html/single-post-music by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:31 GMT -->
+<!-- Mirrored from deothemes.com/envato/deus/html/single-post-videos by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:31 GMT -->
 <head>
-  <title>Deus | Single Post Music</title>
+  <title>Deus | Single Post Videos</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -11,13 +11,13 @@
   <meta name="description" content="">
 
   <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Rubik:400,600,700%7CRoboto:400,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet'>
 
   <!-- Css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-icons.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/colors/cyan.css" />
+  <link rel="stylesheet" href="css/colors/violet.css" />
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -30,7 +30,7 @@
 
 </head>
 
-<body class="style-music single-post">
+<body class="style-videos single-post">
 
   <!-- Preloader -->
   <div class="loader-mask">
@@ -179,7 +179,6 @@
 
     <!-- Navigation -->
     <header class="nav">
-
       <div class="nav__holder nav--sticky">
         <div class="container relative">
           <div class="flex-parent">
@@ -193,7 +192,7 @@
 
             <!-- Logo -->
             <a href="/" class="logo">
-              <img class="logo__img" src="img/logo_default.png" srcset="img/logo_default.png 1x, img/logo_default@2x.png 2x" alt="logo">
+              <img class="logo__img" src="img/logo_videos.png" srcset="img/logo_videos.png 1x, img/logo_videos@2x.png 2x" alt="logo">
             </a>
 
             <!-- Nav-wrap -->
@@ -222,7 +221,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-videos">
                                   <img src="img/content/grid/grid_post_1.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--violet">world</a>
@@ -230,7 +229,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">Follow These Smartphone Habits of Successful Entrepreneurs</a>
+                                  <a href="single-post-videos">Follow These Smartphone Habits of Successful Entrepreneurs</a>
                                 </h2>
                               </div>
                             </article>
@@ -239,7 +238,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-videos">
                                   <img src="img/content/grid/grid_post_2.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--purple">fashion</a>
@@ -247,7 +246,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">3 Things You Can Do to Get Your Customers Talking About Your Business</a>
+                                  <a href="single-post-videos">3 Things You Can Do to Get Your Customers Talking About Your Business</a>
                                 </h2>
                               </div>
                             </article>
@@ -256,7 +255,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-videos">
                                   <img src="img/content/grid/grid_post_3.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">business</a>
@@ -264,7 +263,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
+                                  <a href="single-post-videos">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
                                 </h2>
                               </div>
                             </article>
@@ -273,7 +272,7 @@
                           <div class="col nav__megamenu-item">
                             <article class="entry">
                               <div class="entry__img-holder">
-                                <a href="single-post-music">
+                                <a href="single-post-videos">
                                   <img src="img/content/grid/grid_post_4.jpg" alt="" class="entry__img">
                                 </a>
                                 <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--green">lifestyle</a>
@@ -281,7 +280,7 @@
 
                               <div class="entry__body">   
                                 <h2 class="entry__title">
-                                  <a href="single-post-music">10 Horrible Habits You're Doing Right Now That Are Draining Your Energy</a>
+                                  <a href="single-post-videos">10 Horrible Habits You're Doing Right Now That Are Draining Your Energy</a>
                                 </h2>
                               </div>
                             </article>
@@ -302,7 +301,7 @@
                     <li><a href="categories">Categories</a></li>
                     <li><a href="404">404</a></li>
                   </ul>
-                </li>                
+                </li>
 
                 <li class="nav__dropdown">
                   <a href="#">Features</a>
@@ -365,46 +364,53 @@
       </ul>
     </div>
 
-    <!-- Entry Image -->
-    <div class="thumb thumb--size-6">
-      <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/single/single_post_music_featured_img.jpg');">
-        <div class="bottom-gradient"></div>
-        <div class="container">
-          <div class="thumb-text-holder thumb-text-holder--5">
-            <ul class="entry__meta">
-              <li>
-                <a href="#" class="entry__meta-category">concerts</a>
-              </li>
-            </ul>
-            <h1 class="thumb-entry-title single-post__thumb-entry-title">
-              Meghan Trainor and 'Queer Eye' Cast Team Up for Spotify Takeover: Listen
-            </h1>
-            <ul class="entry__meta">
-              <li class="entry__meta-author">
-                <span>by</span>
-                <a href="#">DeoThemes</a>
-              </li>
-              <li class="entry__meta-date">
-                Jan 21, 2018
-              </li>
-            </ul>
-            
-          </div>          
-        </div>
-      </div>
-    </div>
-
-    <div class="main-container container" id="main-container">      
-
-      <!-- post content -->
+    <div class="main-container container" id="main-container">
+      <!-- Post Content -->
       <div class="blog__content mb-72">
+        
+        <!-- Entry Header -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="single-post__entry-header entry__header mb-56 text-center">
+              <h1 class="single-post__entry-title">
+                Robot Sophia in korea. Interview with Sophia the robot with Artificial Intelligence
+              </h1>
+              <ul class="entry__meta">
+                <li class="entry__meta-author">
+                  <span>by</span>
+                  <a href="#">DeoThemes</a>
+                </li>
+                <li class="entry__meta-date">
+                  5 Days Ago
+                </li> 
+                <li class="entry__meta-category">
+                  <span>in</span>
+                  <a href="#">World</a>
+                </li>
+                <li class="entry__meta-comments">
+                  <a href="#">
+                    <i class="ui-chat-empty"></i>13
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>          
+        </div> <!-- end entry header -->
+        
+
+        <!-- Entry Video -->
+        <div class="entry__img-holder">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/SVnhBjRMlKA?feature=oembed" class="video-playlist__content-video">
+            </iframe>
+          </div>
+        </div>
 
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <!-- standard post -->
             <article class="entry mb-0">
-
-              <div class="entry__article-wrap mt-0">
+              <div class="entry__article-wrap">
 
                 <!-- Share -->
                 <div class="entry__share">
@@ -550,9 +556,7 @@
                   </h6>
                   <p class="mb-0">But unfortunately for most of us our role as gardener has never been explained to us. And in misunderstanding our role, we have allowed seeds of all types, both good and bad, to enter our inner garden.</p>
                 </div>
-              </div>
-
-              
+              </div>              
 
               <!-- Related Posts -->
               <section class="section related-posts mt-40 mb-0">
@@ -714,52 +718,38 @@
                 </p>
                 
               </form>
-            </div> <!-- end comment form -->
+            </div> <!-- end comment form --> 
           </div>
         </div>
-        
+
       </div> <!-- end post content -->
     </div> <!-- end main container -->
 
     <!-- Footer -->
-    <footer class="footer footer--dark footer--bg-img" style="background-image: url('img/content/footer/footer_bg_img.jpg');">
+    <footer class="footer footer--grey">
       <div class="container">
         <div class="footer__widgets">
-          <div class="footer__widgets-top">
-            <div class="row justify-content-between align-items-center">
-              <div class="col-md-4">
-                <a href="/">
-                  <img src="img/logo_default_white.png" srcset="img/logo_default_white.png 1x, img/logo_default_white@2x.png 2x" class="logo__img" alt="">
-                </a>
-              </div>
+          <div class="row">
 
-              <div class="col-md-6">              
-                <div class="socials socials--large socials--nobase justify-content-md-end">
+            <div class="col-lg-4 col-md-6">
+              <aside class="widget widget-logo">
+                <a href="/">
+                  <img src="img/logo_videos.png" srcset="img/logo_videos.png 1x, img/logo_videos@2x.png 2x" class="logo__img" alt="">
+                </a>
+                <p class="mt-24">We bring you the most advanced themes that perfect for news, magazine, personal blog, etc. Check our landing page for details.</p>
+                <p class="mb-32">
+                  Contact us: <a href="https://deothemes.com/">deothemes.com</a>
+                </p>
+                <div class="socials socials--large socials--white-base socials--rounded mb-24">
                   <a href="#" class="social social-facebook" aria-label="facebook"><i class="ui-facebook"></i></a>
                   <a href="#" class="social social-twitter" aria-label="twitter"><i class="ui-twitter"></i></a>
                   <a href="#" class="social social-google-plus" aria-label="google+"><i class="ui-google"></i></a>
                   <a href="#" class="social social-youtube" aria-label="youtube"><i class="ui-youtube"></i></a>
                   <a href="#" class="social social-instagram" aria-label="instagram"><i class="ui-instagram"></i></a>
                 </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row">
-
-            <div class="col-lg-2 col-md-6">
-              <aside class="widget widget_nav_menu">
-                <h4 class="widget-title">Useful Links</h4>
-                <ul>
-                  <li><a href="about">About</a></li>
-                  <li><a href="contact">Contact</a></li>
-                  <li><a href="single-post-music">Projects</a></li>
-                  <li><a href="single-post-music">Wordpress Themes</a></li>
-                  <li><a href="categories">Advertise</a></li>
-                </ul>
               </aside>
             </div>
-           
+
             <div class="col-lg-4 col-md-6">
               <aside class="widget widget-twitter">
                 <h4 class="widget-title">Latest Tweets</h4>
@@ -769,89 +759,25 @@
               </aside>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-              <aside class="widget widget-popular-posts">
-                <h4 class="widget-title">Most Popular</h4>
-                <ul class="post-list-small post-list-small--1">
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-music">
-                            <img data-src="img/content/post_small/post_small_46.jpg" src="img/empty.png" alt="" class="lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-music">WATCH Suprise Performance, Shoots Whiskey at Nashville’s</a>
-                        </h3>
-                      </div>                  
-                    </article>
-                  </li>
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-music">
-                            <img data-src="img/content/post_small/post_small_47.jpg" src="img/empty.png" alt="" class="lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-music">Jack, Chris &amp; More to Headline 2018 Pilgrimage Festival</a>
-                        </h3>
-                      </div>                  
-                    </article>
-                  </li>
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-music">
-                            <img data-src="img/content/post_small/post_small_48.jpg" src="img/empty.png" alt="" class="lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-music">Meghan Trainor and 'Queer Eye' Cast Team Up for Spotify ...</a>
-                        </h3>
-                      </div>                  
-                    </article>
-                  </li>
+            <div class="col-lg-4 col-md-6">
+              <aside class="widget widget_categories">
+                <h4 class="widget-title">Categories</h4>
+                <ul>
+                  <li><a href="categories">World <span class="categories-count">5</span></a></li>
+                  <li><a href="categories">Lifestyle <span class="categories-count">7</span></a></li>
+                  <li><a href="categories">Business <span class="categories-count">5</span></a></li>
+                  <li><a href="categories">Fashion <span class="categories-count">8</span></a></li>
+                  <li><a href="categories">Investment <span class="categories-count">10</span></a></li>
+                  <li><a href="categories">Technology <span class="categories-count">6</span></a></li>
                 </ul>
-              </aside>              
+              </aside>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-              <aside class="widget widget_mc4wp_form_widget">
-                <h4 class="widget-title">Newsletter</h4>
-                <p class="newsletter__text">
-                  <i class="ui-email newsletter__icon"></i>
-                  Subscribe for our daily news
-                </p>
-                <form class="mc4wp-form" method="post">
-                  <div class="mc4wp-form-fields">
-                    <div class="form-group">
-                      <input type="email" name="EMAIL" placeholder="Your email" required="">
-                    </div>
-                    <div class="form-group">
-                      <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
-                    </div>
-                  </div>
-                </form>                
-              </aside>
-            </div>           
-
-
-
-          </div> <!-- end row -->
-        </div> <!-- end footer widgets -->
+          </div>
+        </div>    
       </div> <!-- end container -->
 
-      <div class="footer__bottom footer__bottom--dark">
+      <div class="footer__bottom footer__bottom--white">
         <div class="container text-center">
           <ul class="footer__nav-menu footer__nav-menu--1">
             <li><a href="about">About</a></li>
@@ -888,5 +814,5 @@
 
 </body>
 
-<!-- Mirrored from deothemes.com/envato/deus/html/single-post-music by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:42 GMT -->
+<!-- Mirrored from deothemes.com/envato/deus/html/single-post-videos by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:31 GMT -->
 </html>
