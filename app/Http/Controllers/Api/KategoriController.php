@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Validator;
+// use Illuminate\Support\Facades\Validator;
 use App\kategori;
 class KategoriController extends Controller
 {
@@ -16,7 +16,21 @@ class KategoriController extends Controller
      */
     public function index()
     {
-        //
+        $kategori = kategori::all();
+       if(count($kategori)<=0){
+        $response = [
+         'success' => false,
+         'data' => 'empty',
+         'message' => 'kategori tidak di temukan.'
+           ];
+           return response()->json($response,404);
+       }
+       $response = [  
+           'succcess' => true,
+           'data' => $kategori,
+           'message' => 'Berhasil.'
+       ];
+        return response()->json($response,200);
     }
 
     /**

@@ -1,390 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Mirrored from deothemes.com/envato/deus/html/about by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:44:54 GMT -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Deus | About</title>
 
-    <!-- Title -->
-    <title>Egames - Gaming Magazine Template</title>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="">
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700%7CSource+Sans+Pro:400,600,700' rel='stylesheet'>
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-icons.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+  <!-- Lazyload (must be placed in head in order to work) -->
+  <script src="js/lazysizes.min.js"></script>
 
 </head>
 
-<body>
-    <!-- Preloader -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
+<body class="style-default style-rounded">
+
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+  
+  <!-- Bg Overlay -->
+  <div class="content-overlay"></div>
+
+  <!-- Sidenav -->    
+  <header class="sidenav" id="sidenav">
+
+    <!-- close -->
+    <div class="sidenav__close">
+      <button class="sidenav__close-button" id="sidenav__close-button" aria-label="close sidenav">
+        <i class="ui-close sidenav__close-icon"></i>
+      </button>
+    </div>
+    
+    <!-- Nav -->
+    <nav class="sidenav__menu-container">
+      <ul class="sidenav__menu" role="menubar">
+        <li>
+          <a href="#" class="sidenav__menu-url">Home</a>
+          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+          <ul class="sidenav__menu-dropdown">
+            <li><a href="/" class="sidenav__menu-url">Home Politics</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="sidenav__menu-url">Pages</a>
+          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+          <ul class="sidenav__menu-dropdown">
+            <li><a href="about" class="sidenav__menu-url">About</a></li>
+            <li><a href="contact" class="sidenav__menu-url">Contact</a></li>
+            <li><a href="search-results" class="sidenav__menu-url">Search Results</a></li>
+            <li><a href="categories" class="sidenav__menu-url">Categories</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="sidenav__menu-url">Features</a>
+          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+          <ul class="sidenav__menu-dropdown">
+            <li>
+              <a href="#" class="sidenav__menu-url">Single Post</a>
+              <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+              <ul class="sidenav__menu-dropdown">
+                <li><a href="single-post-politics" class="sidenav__menu-url">Single Post Politic</a></li>
+              </ul>
+            </li>
+            <li><a href="shortcodes" class="sidenav__menu-url">Shortcodes</a></li>
+          </ul>
+        </li>        
+
+        <!-- Categories -->
+    </nav>
+
+    <div class="socials sidenav__socials"> 
+      <a class="social social-facebook" href="#" target="_blank" aria-label="facebook">
+        <i class="ui-facebook"></i>
+      </a>
+      <a class="social social-twitter" href="#" target="_blank" aria-label="twitter">
+        <i class="ui-twitter"></i>
+      </a>
+      <a class="social social-google-plus" href="#" target="_blank" aria-label="google">
+        <i class="ui-google"></i>
+      </a>
+      <a class="social social-youtube" href="#" target="_blank" aria-label="youtube">
+        <i class="ui-youtube"></i>
+      </a>
+      <a class="social social-instagram" href="#" target="_blank" aria-label="instagram">
+        <i class="ui-instagram"></i>
+      </a>
+    </div>
+  </header> <!-- end sidenav -->
+
+
+  <main class="main oh" id="main">
+
+    <!-- Top Bar -->
+    <div class="top-bar d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+
+          <!-- Top menu -->
+          <div class="col-lg-6">
+            <ul class="top-menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          
+          <!-- Socials -->
+          <div class="col-lg-6">
+            <div class="socials nav__socials socials--nobase socials--white justify-content-end"> 
+              <a class="social social-facebook" href="#" target="_blank" aria-label="facebook">
+                <i class="ui-facebook"></i>
+              </a>
+              <a class="social social-twitter" href="#" target="_blank" aria-label="twitter">
+                <i class="ui-twitter"></i>
+              </a>
+              <a class="social social-google-plus" href="#" target="_blank" aria-label="google">
+                <i class="ui-google"></i>
+              </a>
+              <a class="social social-youtube" href="#" target="_blank" aria-label="youtube">
+                <i class="ui-youtube"></i>
+              </a>
+              <a class="social social-instagram" href="#" target="_blank" aria-label="instagram">
+                <i class="ui-instagram"></i>
+              </a>
+            </div>
+          </div>
+
         </div>
+      </div>
+    </div> <!-- end top bar -->
+        
+
+    <!-- Navigation -->
+    <header class="nav">
+
+      <div class="nav__holder nav--sticky">
+        <div class="container relative">
+          <div class="flex-parent">
+
+            <!-- Side Menu Button -->
+            <button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
+              <span class="nav-icon-toggle__box">
+                <span class="nav-icon-toggle__inner"></span>
+              </span>
+            </button> 
+
+            <!-- Logo -->
+            <a href="index-2" class="logo">
+              <img class="logo__img" src="img/logo_default.png" srcset="img/logo_default.png 1x, img/logo_default@2x.png 2x" alt="logo">
+            </a>
+
+            <!-- Nav-wrap -->
+            <nav class="flex-child nav__wrap d-none d-lg-block">              
+              <ul class="nav__menu">
+
+                <li class="nav__dropdown active">
+ 
+                  <ul class="nav__dropdown-menu">
+
+                    <li><a href="/">Home Politics</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav__dropdown">
+                  <a href="#">Pages</a>
+                  <ul class="nav__dropdown-menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="search-results">Search Results</a></li>
+                    <li><a href="categories">Categories</a></li>
+                    <li><a href="404">404</a></li>
+                  </ul>
+                </li>                
+
+                <li class="nav__dropdown">
+                  <a href="#">Features</a>
+                  <ul class="nav__dropdown-menu">
+                    <li class="nav__dropdown">
+                      <a href="#">Single Post</a>
+                      <ul class="nav__dropdown-menu">
+                        
+                        <li><a href="single-post-politics">Single Post politics</a></li>
+                       
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul> <!-- end menu -->
+            </nav> <!-- end nav-wrap -->
+
+            <!-- Nav Right -->
+            <div class="nav__right">
+
+              <!-- Search -->
+              <div class="nav__right-item nav__search">
+                <a href="#" class="nav__search-trigger" id="nav__search-trigger">
+                  <i class="ui-search nav__search-trigger-icon"></i>
+                </a>
+                <div class="nav__search-box" id="nav__search-box">
+                  <form class="nav__search-form">
+                    <input type="text" placeholder="Search an article" class="nav__search-input">
+                    <button type="submit" class="search-button btn btn-lg btn-color btn-button">
+                      <i class="ui-search nav__search-icon"></i>
+                    </button>
+                  </form>
+                </div>                
+              </div>             
+
+            </div> <!-- end nav right -->            
+        
+          </div> <!-- end flex-parent -->
+        </div> <!-- end container -->
+
+      </div>
+    </header> <!-- end navigation -->
+
+    <!-- Breadcrumbs -->
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item">
+          <a href="/" class="breadcrumbs__url">Home</a>
+        </li>
+      </ul>
     </div>
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Top Header Area -->
-        <div class="top-header-area">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 d-flex align-items-center justify-content-between">
-                        <!-- Logo Area -->
-                        <div class="logo">
-                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
-                        </div>
+    <div class="main-container container" id="main-container">            
+      <!-- post content -->
+      <div class="blog__content mb-72">
+        <h1 class="page-title">About</h1>
+        <img src="img/content/about/about_bg.jpg" class="page-featured-img">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="entry__article">
+              <p>iPrice Group report offers insights on daily e-commerce activity in the Philippines and Southeast. Statistically, you stand a better chance for success if you have some sort of strategic ask in almost everything that you do -- in-person, on the phone, over email, or on social media.</p>
 
-                        <!-- Search & Login Area -->
-                        <div class="search-login-area d-flex align-items-center">
-                            <!-- Top Search Area -->
-                            <div class="top-search-area">
-                                <form action="#" method="post">
-                                    <input type="search" name="top-search" id="topSearch" placeholder="Search">
-                                    <button type="submit" class="btn"><i class="fa fa-search"></i></button>
-                                </form>
-                            </div>
-                            <!-- Login Area -->
-                            <div class="login-area">
-                                <a href="#"><span>Login / Register</span> <i class="fa fa-lock" aria-hidden="true"></i></a>
-                            </div>
+              <p>Think about it: If you make one additional ask per day and convert at around 10 percent. Then you have three people each month providing you with benefits that you'd have missed otherwise It's essential to make sure that your ask relates to some direct path to what you want, whether it is revenue, a business relationship or anything else of prime importance to you.</p>
+              
+              <blockquote><p>“Dreams and dedication are powerful combination.”</p></blockquote>
+
+              <p>This strategy uses the Ben Franklin Effect: When people do you a favor, they are more likely to do another. When you meet someone you yourself might be able to assist, ask for their help and, at the same time (e.g. in the same conversation) offer yours. And make a point to be of service even if others might not be able to help you immediately.</p>
+
+              <p>The same goes for phone calls, emails or social media interactions. Being afraid to ask for what you want is a detriment to your success and prosperity. If you lack this skill, then you need to work on it! Asking for help is a form of radical humility, something that with practice will have amazing benefits for all involved.Use this study to your advantage! Don't just ask people for help - ask specifically for what you.</p>
+
+              <p>In order to attract what you want, you actually have to consciously and strategically think about what you want and focus in on it. Then, you need to take some sort of action using the same four strategies you use to ask for help in order to make it happen. You can't get what you want sitting around on your couch. You need to put yourself out there and stimulate interest in person, via email, by phone and through social media.</p>
+
+            </div>
+          </div>
+        </div>
+      </div> <!-- end post content -->
+    </div> <!-- end main container -->
+
+    <!-- Footer -->
+    <footer class="footer footer--dark">
+      <div class="container">
+        <div class="footer__widgets">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <aside class="widget widget-logo">
+                <a href="index-2">
+                  <img src="img/logo_default_white.png" srcset="img/logo_default_white.png 1x, img/logo_default_white@2x.png 2x" class="logo__img" alt="">
+                </a>
+                <p class="copyright">
+                  © 2018 Deus | Made by <a href="https://deothemes.com/">DeoThemes</a>
+                </p>
+                <div class="socials socials--large socials--rounded mb-24">
+                  <a href="#" class="social social-facebook" aria-label="facebook"><i class="ui-facebook"></i></a>
+                  <a href="#" class="social social-twitter" aria-label="twitter"><i class="ui-twitter"></i></a>
+                  <a href="#" class="social social-google-plus" aria-label="google+"><i class="ui-google"></i></a>
+                  <a href="#" class="social social-youtube" aria-label="youtube"><i class="ui-youtube"></i></a>
+                  <a href="#" class="social social-instagram" aria-label="instagram"><i class="ui-instagram"></i></a>
+                </div>
+              </aside>
+            </div>
+
+            <div class="col-lg-2 col-md-6">
+              <aside class="widget widget_nav_menu">
+                <h4 class="widget-title">Useful Links</h4>
+                <ul>
+                  <li><a href="about">About</a></li>
+                  <li><a href="shortcodes">Contact</a></li>
+                </ul>
+              </aside>
+            </div>  
+
+            <div class="col-lg-4 col-md-6">
+              <aside class="widget widget-popular-posts">
+                <h4 class="widget-title">Popular Posts</h4>
+                <ul class="post-list-small">
+                  <li class="post-list-small__item">
+                    <article class="post-list-small__entry clearfix">
+                      <div class="post-list-small__img-holder">
+                        <div class="thumb-container thumb-100">
+                          <a href="single-post">
+                            <img data-src="img/content/post_small/post_small_1.jpg" src="img/content/post_small/post_small_1.jpg" alt="" class=" lazyloaded">
+                          </a>
                         </div>
+                      </div>
+                      <div class="post-list-small__body">
+                        <h3 class="post-list-small__entry-title">
+                          <a href="single-post">Follow These Smartphone Habits of Successful Entrepreneurs</a>
+                        </h3>
+                        <ul class="entry__meta">
+                          <li class="entry__meta-author">
+                            <span>by</span>
+                            <a href="#">DeoThemes</a>
+                          </li>
+                          <li class="entry__meta-date">
+                            Jan 21, 2018
+                          </li>
+                        </ul>
+                      </div>                  
+                    </article>
+                  </li>
+                  <li class="post-list-small__item">
+                    <article class="post-list-small__entry clearfix">
+                      <div class="post-list-small__img-holder">
+                        <div class="thumb-container thumb-100">
+                          <a href="single-post">
+                            <img data-src="img/content/post_small/post_small_2.jpg" src="img/content/post_small/post_small_2.jpg" alt="" class=" lazyloaded">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="post-list-small__body">
+                        <h3 class="post-list-small__entry-title">
+                          <a href="single-post">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
+                        </h3>
+                        <ul class="entry__meta">
+                          <li class="entry__meta-author">
+                            <span>by</span>
+                            <a href="#">DeoThemes</a>
+                          </li>
+                          <li class="entry__meta-date">
+                            Jan 21, 2018
+                          </li>
+                        </ul>
+                      </div>                  
+                    </article>
+                  </li>
+                </ul>
+              </aside>              
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <aside class="widget widget_mc4wp_form_widget">
+                <h4 class="widget-title">Newsletter</h4>
+                <p class="newsletter__text">
+                  <i class="ui-email newsletter__icon"></i>
+                  Subscribe for our daily news
+                </p>
+                <form class="mc4wp-form" method="post">
+                  <div class="mc4wp-form-fields">
+                    <div class="form-group">
+                      <input type="email" name="EMAIL" placeholder="Your email" required="">
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Navbar Area -->
-          <div class="egames-main-menu" id="sticker">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="egamesNav">
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="game-review">Games</a>
-                                        <ul class="dropdown">
-                                            <li><a href="game-review">Game Review</a></li>
-                                            <li><a href="about">about</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="/">Home</a></li>
-                                            <li><a href="post">Kategory</a></li>
-                                            <li><a href="single-post">Single Post</a></li>
-                                            <li><a href="game-review">Game Review</a></li>
-                                            <li><a href="about">about</a></li>
-                                            <li><a href="contact">Contact</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="post">News Single Post</a>
-                                        <ul class="dropdown">
-                                            <li><a href="post">Kategory</a></li>
-                                            <li><a href="single-post">News Single Post</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about">Reviews</a>
-                                        <ul class="dropdown">
-                                            <li><a href="game-review">Game Review</a></li>
-                                            <li><a href="about">about</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact">Contact</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-
-                        <!-- Top Social Info -->
-                        <div class="top-social-info">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
-
-    <!-- ##### Breadcrumb Area Start ##### -->
-    <div class="breadcrumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/27.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <!-- Breadcrumb Text -->
-                <div class="col-12">
-                    <div class="breadcrumb-text">
-                        <h2>Game Review</h2>
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
                     </div>
-                </div>
+                  </div>
+                </form>                
+              </aside>
             </div>
-        </div>
+
+          </div>
+        </div>    
+      </div> <!-- end container -->
+    </footer> <!-- end footer -->
+
+    <div id="back-to-top">
+      <a href="#top" aria-label="Go to top"><i class="ui-arrow-up"></i></a>
     </div>
-    <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### Single Game Review Area Start ##### -->
-    <section class="single-game-review-area section-padding-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="single-game-img-slides">
-                        <div id="gameSlides" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/bg-img/35.jpg" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bg-img/36.jpg" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bg-img/37.jpg" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bg-img/38.jpg" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bg-img/39.jpg" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/bg-img/40.jpg" alt="">
-                                </div>
-                            </div>
-                            <ol class="carousel-indicators">
-                                <li data-target="#gameSlides" data-slide-to="0" class="active" style="background-image: url(img/bg-img/35.jpg);"></li>
-                                <li data-target="#gameSlides" data-slide-to="1" style="background-image: url(img/bg-img/36.jpg);"></li>
-                                <li data-target="#gameSlides" data-slide-to="2" style="background-image: url(img/bg-img/37.jpg);"></li>
-                                <li data-target="#gameSlides" data-slide-to="3" style="background-image: url(img/bg-img/38.jpg);"></li>
-                                <li data-target="#gameSlides" data-slide-to="4" style="background-image: url(img/bg-img/39.jpg);"></li>
-                                <li data-target="#gameSlides" data-slide-to="5" style="background-image: url(img/bg-img/40.jpg);"></li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </main> <!-- end main-wrapper -->
 
-            <div class="row align-items-center">
-                <!-- *** Review Area *** -->
-                <div class="col-12 col-md-6">
-                    <div class="single-game-review-area style-2 mt-70">
-                        <div class="game-content">
-                            <span class="game-tag">Adventure</span>
-                            <a href="single-game-review.html" class="game-title">Destiny 2</a>
-                            <div class="game-meta">
-                                <a href="#" class="game-date">July 12, 2018</a>
-                                <a href="#" class="game-comments">2 Comments</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam.</p>
-                            <!-- Download & Rating Area -->
-                            <div class="download-rating-area">
-                                <div class="download-area">
-                                    <a href="#"><img src="img/core-img/app-store.png" alt=""></a>
-                                    <a href="#"><img src="img/core-img/google-play.png" alt=""></a>
-                                </div>
-                                <div class="rating-area mt-30">
-                                    <h3>8.2</h3>
-                                    <div class="stars">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  
+  <!-- jQuery Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/owl-carousel.min.js"></script>
+  <script src="js/flickity.pkgd.min.js"></script>
+  <script src="js/twitterFetcher_min.js"></script>
+  <script src="js/jquery.newsTicker.min.js"></script>  
+  <script src="js/modernizr.min.js"></script>
+  <script src="js/scripts.js"></script>
 
-                <!-- *** Barfiller Area *** -->
-                <div class="col-12 col-md-6">
-                    <div class="egames-barfiller">
-                        <!-- Single Barfiller -->
-                        <div class="single-barfiller-area">
-                            <div id="bar1" class="barfiller">
-                                <span class="tip"></span>
-                                <span class="fill" data-percentage="90"></span>
-                                <p>User Experience</p>
-                            </div>
-                        </div>
-                        <!-- Single Barfiller -->
-                        <div class="single-barfiller-area">
-                            <div id="bar2" class="barfiller">
-                                <span class="tip"></span>
-                                <span class="fill" data-percentage="80"></span>
-                                <p>Marketing</p>
-                            </div>
-                        </div>
-                        <!-- Single Barfiller -->
-                        <div class="single-barfiller-area">
-                            <div id="bar3" class="barfiller">
-                                <span class="tip"></span>
-                                <span class="fill" data-percentage="95"></span>
-                                <p>Solutions</p>
-                            </div>
-                        </div>
-                        <!-- Single Barfiller -->
-                        <div class="single-barfiller-area">
-                            <div id="bar4" class="barfiller">
-                                <span class="tip"></span>
-                                <span class="fill" data-percentage="60"></span>
-                                <p>Price</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Single Game Review Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <!-- Main Footer Area -->
-        <div class="main-footer-area section-padding-100-0">
-            <div class="container">
-                <div class="row">
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <div class="widget-title">
-                                <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
-                            </div>
-                            <div class="widget-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam ut interdum ultricies.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <div class="widget-title">
-                                <h4>Game Reviews</h4>
-                            </div>
-                            <div class="widget-content">
-                                <nav>
-                                    <ul>
-                                        <li><a href="#">Doom</a></li>
-                                        <li><a href="#">Grand Theft Auto</a></li>
-                                        <li><a href="#">Bloodborne</a></li>
-                                        <li><a href="#">God of war</a></li>
-                                        <li><a href="#">Persona 5</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <div class="widget-title">
-                                <h4>Usefull Links</h4>
-                            </div>
-                            <div class="widget-content">
-                                <nav>
-                                    <ul>
-                                        <li><a href="#">Testimanials</a></li>
-                                        <li><a href="#">Reviews</a></li>
-                                        <li><a href="#">New Games</a></li>
-                                        <li><a href="#">Forum</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <div class="widget-title">
-                                <h4>What’s new</h4>
-                            </div>
-                            <div class="widget-content">
-                                <nav>
-                                    <ul>
-                                        <li><a href="#">Doom</a></li>
-                                        <li><a href="#">Grand Theft Auto</a></li>
-                                        <li><a href="#">Bloodborne</a></li>
-                                        <li><a href="#">God of war</a></li>
-                                        <li><a href="#">Persona 5</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Copywrite Area -->
-        <div class="copywrite-content">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 col-sm-5">
-                        <!-- Copywrite Text -->
-                        <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-                    </div>
-                    <div class="col-12 col-sm-7">
-                        <!-- Footer Nav -->
-                        <div class="footer-nav">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="game-review.html">Games</a></li>
-                                <li><a href="post.html">Articles</a></li>
-                                <li><a href="single-game-review.html">Reviews</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area End ##### -->
-
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
 </body>
 
+<!-- Mirrored from deothemes.com/envato/deus/html/about by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:01 GMT -->
 </html>

@@ -32,16 +32,16 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/categories', function () {
+    return view('categories');
 });
-Route::get('/game-review', function () {
-    return view('game-review');
+Route::get('/search-results', function () {
+    return view('search-results');
 });
 
-Route::get('/post', function () {
-    return view('post');
+Route::get('/shortcodes', function () {
+    return view('shortcodes');
 });
-Route::get('single-post', function () {
-    return view('single-post');
+Route::get('single-post-politics', function () {
+    return view('single-post-politics');
 });
