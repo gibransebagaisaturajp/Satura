@@ -96,23 +96,6 @@
             <li><a href="shortcodes" class="sidenav__menu-url">Shortcodes</a></li>
           </ul>
         </li>        
-
-        <!-- Categories -->
-        <li>
-          <a href="#" class="sidenav__menu-url">World</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Business</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Fashion</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Lifestyle</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Advertise</a>
-        </li>
       </ul>
     </nav>
 
@@ -504,7 +487,7 @@
           <!-- Latest News -->
           <section class="section tab-post mb-16">
             <div class="title-wrap title-wrap--line">
-              <h3 class="section-title">Latest News</h3>
+              <h3 class="section-title">Latest Post</h3>
 
               <div class="tabs tab-post__tabs"> 
                 <ul class="tabs__list">
@@ -2267,6 +2250,27 @@
   <script src="js/modernizr.min.js"></script>
   <script src="js/scripts.js"></script>
 
+
+  <script>
+   var url = 'api/json'
+   $.ajax({
+     url: url + '/latest',
+     dataType:'json',
+     success: function(berhasil) {
+       $.each(berhasil.data, function(key, value){
+         $(".berita-terakhir").append(
+        `
+        isi dari child element yg akan menampilkan
+        data dari json
+        `
+         )
+       })
+     },
+     error: function(gagal){
+       console.log(gagal)
+     }
+   })
+  </script>
 </body>
 
 <!-- Mirrored from deothemes.com/envato/deus/html/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:42:25 GMT -->

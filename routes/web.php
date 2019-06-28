@@ -20,13 +20,37 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
+// Route::get('/admin', function () {
+//     return view('back');
+// });
+
+//Route Halaman Backend
+Route::group(['prefix' => 'admin','middleware'=>'auth'], function () {
+    Route::get('/', function () {
+        return view('adminbackend');
+    });
+    
+    
+});
+
+Route::resource('kategori', 'KategoriController');
+Route::resource('tag', 'TagController');
+Route::resource('artikel', 'artikelController');
+
+
+Route::get('dashboardfrontend', function () {
+    return view('dashboardfrontend');
+});
+
+
+
 
 Route::get('welcome', function () {
     return view('welcome');
 });
-Route::get('admin', function () {
-    return view('backend');
-});
+// Route::get('admin', function () {
+//     return view('backend');
+// });
 
 Route::get('/about', function () {
     return view('about');
@@ -42,42 +66,41 @@ Route::get('/search-results', function () {
 Route::get('/shortcodes', function () {
     return view('shortcodes');
 });
-Route::get('single-post', function () {
+Route::get('/single-post', function () {
     return view('single-post');
 });
-Route::get('single-post-politics', function () {
+Route::get('/single-post-politics', function () {
     return view('single-post-politics');
 });
-Route::get('single-post-fashion', function () {
+Route::get('/single-post-fashion', function () {
     return view('single-post-fashion');
 });
-Route::get('single-post-videos', function () {
+Route::get('/single-post-videos', function () {
     return view('single-post-videos');
 });
-Route::get('single-post-games', function () {
+Route::get('/single-post-games', function () {
     return view('single-post-games');
 });
-Route::get('single-post-music', function () {
+Route::get('/single-post-music', function () {
     return view('single-post-music');
 });
-Route::get('index-politics', function () {
+Route::get('/index-politics', function () {
     return view('index-politics');
 });
-Route::get('index-games', function () {
+Route::get('/index-games', function () {
     return view('index-games');
 });
-Route::get('index-videos', function () {
+Route::get('/index-videos', function () {
     return view('index-videos');
 });
-Route::get('index-music', function () {
+Route::get('/index-music', function () {
     return view('index-music');
 });
-Route::get('index-fashion', function () {
+Route::get('/index-fashion', function () {
     return view('index-fashion');
 });
-// Route::get('index-', function () {
-//     return view('index-');
-// });
+
+
 // Route::get('index-videos', function () {
 //     return view('index-videos');
 // });
