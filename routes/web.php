@@ -35,7 +35,7 @@ Route::group(['prefix' => 'admin','middleware'=>'auth'], function () {
 
 Route::resource('kategori', 'KategoriController');
 Route::resource('tag', 'TagController');
-Route::resource('artikel', 'artikelController');
+Route::resource('artikel', 'ArtikelController');
 
 
 Route::get('dashboardfrontend', function () {
